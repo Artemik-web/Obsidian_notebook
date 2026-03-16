@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:dev.personalblog.cn)",
       "Bash(curl:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(find:*)"
     ]
   }
 }
