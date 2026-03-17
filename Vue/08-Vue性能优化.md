@@ -308,4 +308,4 @@ SEO 要求高、首屏慢，用 SSR（Nuxt.js）或者预渲染，首屏更快�
 - [[04-路由与Pinia]]
 - ../React/[[05-React性能优化]]
 - ../JavaScript/[[04-异步与AJAX]]
-- ../工程化/[[Vite与Webpack对比]]
+- ../工程化/[[01-ViteWebpack基础]]
