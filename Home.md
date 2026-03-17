@@ -1,1 +1,2 @@
-TASK FROM "Tasks" WHERE !completed SORT due ASC LIMIT 10
+ 🚀 个人指挥中心 > [!SUMMARY] 
+📅 今日概览 > **日期**: <% tp.date.now("YYYY-MM-DD") %> | **星期**: <% tp.date.now("dddd") %> > **核心目标**: 完成今日最重要的三件事 (The Big 3)。 --- ## ⚡ 快速行动区 | 操作 | 说明 | | :--- | :--- | | [[<% tp.date.now("YYYY-MM-DD") %>|📝 打开今日日记]] | 开始记录今天 | | [[Inbox|📥 收集箱]] | 快速捕获灵感 | | [[Projects|🔥 项目看板]] | 查看长期任务 | --- ## ✅ 今日紧急待办 *自动从全库抓取今天到期或过期的未完成任务* ```dataview TASK FROM "" WHERE !completed AND (due = date(today) OR due < date(today)) SORT due ASC, file.path ASC GROUP BY file.link
