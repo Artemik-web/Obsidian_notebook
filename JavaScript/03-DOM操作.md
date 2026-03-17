@@ -448,3 +448,12 @@ window.addEventListener('scroll', lazyLoad);
 - 动态元素用事件委托
 - 自定义数据放 `data-*` 属性，用 `dataset` 读
 - 事件绑定用 `addEventListener`
+
+---
+
+## 相关笔记
+
+- [[01-JavaScript基础]]
+- [[02-对象与函数进阶]]
+- [[04-异步与AJAX]]
+- ../HTML/[[01-HTML基础]]

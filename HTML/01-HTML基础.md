@@ -312,3 +312,13 @@ HTML（HyperText Markup Language，超文本标记语言）是构建 Web 页面�
 - [MDN HTML 文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
 - [W3Schools HTML 教程](https://www.w3schools.com/html/)
 - [HTML5 规范](https://html.spec.whatwg.org/)
+
+---
+
+## 相关笔记
+
+- [[02-HTML元素与属性]]
+- [[03-HTML语义化结构]]
+- [[04-HTML表格与表单]]
+- ../CSS/[[01-CSS基础]]
+- ../浏览器/[[01-浏览器原理]]

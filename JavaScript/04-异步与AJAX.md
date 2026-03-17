@@ -438,3 +438,13 @@ let user = JSON.parse(localStorage.getItem('user'));
 6. 本地存储用 localStorage/sessionStorage
 
 下一步：可以看 ES6+ 新特性，框架使用了。
+
+---
+
+## 相关笔记
+
+- [[01-JavaScript基础]]
+- [[02-对象与函数进阶]]
+- [[03-DOM操作]]
+- ../HTTP/[[01-HTTP基础]]
+- ../安全/[[01-Web安全基础]]
