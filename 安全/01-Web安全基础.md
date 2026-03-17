@@ -135,3 +135,10 @@ X-XSS-Protection: 1; mode=block  # 旧浏览器开启XSS防护
 Content-Security-Policy: ...  # CSP
 Strict-Transport-Security: max-age=31536000; includeSubDomains  # HSTS 强制HTTPS
 ```
+
+---
+
+## 相关笔记
+
+- ../HTTP/[[01-HTTP基础]]
+- ../浏览器/[[01-浏览器原理]]

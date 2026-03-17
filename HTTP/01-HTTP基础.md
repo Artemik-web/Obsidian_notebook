@@ -208,3 +208,11 @@ Access-Control-Allow-Credentials: true // 允许带 cookie
 - 缓存机制：强制缓存 + 协商缓存
 - HTTPS 握手流程
 - 跨域解决 CORS
+
+---
+
+## 相关笔记
+
+- ../JavaScript/[[04-异步与AJAX]]
+- ../安全/[[01-Web安全基础]]
+- ../浏览器/[[01-浏览器工作原理]]

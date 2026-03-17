@@ -250,3 +250,10 @@ docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:8.0
 ```bash
 docker run -p 6379:6379 -d redis
 ```
+
+---
+
+## 相关笔记
+
+- ../项目相关/[[商业项目开发规划]]
+- ../Linux/[[01-Linux常用命令]]

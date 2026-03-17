@@ -295,3 +295,11 @@ Node 让 JS 可以运行在后端，现在全栈开发常用：
 - npm 包管理
 - 异步编程：从回调到 Promise/async-await
 - Web 框架：Express / Koa
+
+---
+
+## 相关笔记
+
+- ../JavaScript/[[04-异步与AJAX]]
+- ../HTTP/[[01-HTTP基础]]
+- ../工程化/[[01-ViteWebpack基础]]
