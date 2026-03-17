@@ -278,3 +278,13 @@ function Counter() {
 | Context | 简单全局状态 | ⭐⭐⭐ |
 
 现在推荐：**中小项目用 Zustand，大型项目用 Redux Toolkit**，不要老一套原始 Redux 了，RTK 已经简化很多。
+
+---
+
+## 相关笔记
+
+- [[01-React基础]]
+- [[02-ReactHooks]]
+- [[03-组件通信]]
+- [[05-React性能优化]]
+- ../Vue/[[04-路由与Pinia]]

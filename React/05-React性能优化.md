@@ -222,3 +222,13 @@ import lazyLoad from 'react-lazyload';
 ✅ 分析性能找到瓶颈再优化
 
 大部分项目做好这几点就够了。
+
+---
+
+## 相关笔记
+
+- [[01-React基础]]
+- [[02-ReactHooks]]
+- [[03-组件通信]]
+- [[04-React路由与状态管理]]
+- ../Vue/[[08-Vue性能优化]]
