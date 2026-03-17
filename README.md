@@ -78,6 +78,38 @@ HTML/CSS → JavaScript → TypeScript → 选择框架（Vue/React）→ HTTP �
 - **obsidian-skills**：可以用 ````skills ``` 块生成技能雷达图
 - **所有笔记** 都是 Markdown 格式，纯文本，跨平台可用
 
+### ⚙️ 推荐插件配置
+
+#### Obsidian Git 插件（自动备份笔记到 Git）
+
+安装后推荐配置：
+```json
+{
+  "autoPullOnBoot": true,
+  "disablePush": false,
+  "pullOnSave": false,
+  "pushOnSave": true,
+  "commitMessage": "vault backup: {{date}}",
+  "autoCommitMessage": "vault backup: {{date}}"
+}
+```
+- 每次保存笔记自动 commit + push
+- 启动自动 pull 最新变更
+- 你的笔记会自动备份到 GitHub/GitLab，不怕丢
+
+#### 粘贴图片自动保存到 assets
+
+设置 → 启用 **"Auto link attachment"** 插件 或者用 Obsidian 自带设置：
+- 设置 → 文件 & 链接 → 新 attachment 位置：`assets/`
+- 设置 → 文件 & 链接 → 粘贴图片时自动保存到 attachment 文件夹
+- 这样你截图粘贴进来，图片自动保存到 `assets/` 目录，路径正确
+
+推荐设置：
+```
+Attachment location path: assets/{{filename}}/
+```
+图片按笔记文件名分类存放，干净整洁
+
 ## 🎯 特点
 
 - ✅ 内容简洁，都是干货，适合快速复习
