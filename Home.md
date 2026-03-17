@@ -1,0 +1,1 @@
+TASK FROM "Tasks" WHERE !completed SORT due ASC LIMIT 10
