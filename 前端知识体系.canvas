@@ -2,13 +2,13 @@
 	"nodes":[
 		{"id":"react","type":"text","text":"## React\n- React 基础\n- React Hooks\n- 组件通信\n- 路由 & 状态管理\n- 性能优化","x":500,"y":-160,"width":180,"height":240,"color":"6"},
 		{"id":"vue","type":"text","text":"## Vue\n- Vue3 基础\n- 响应式系统\n- 组件与组合式API\n- 路由 & Pinia\n- 自定义指令\n- 性能优化\n- 常用交互动画","x":500,"y":170,"width":180,"height":150,"color":"5"},
-		{"id":"backend","type":"text","text":"## 后端 & 工程化\n- Node.js 基础\n- Vite vs Webpack\n- Git 常用命令\n- Docker 部署\n- Linux 命令","x":410,"y":440,"width":180,"height":280,"color":"7"},
 		{"id":"js","type":"text","text":"## JavaScript\n- 基础语法\n- 对象与函数进阶\n- DOM 操作\n- 异步与 AJAX\n- 事件循环、Promise\n- 防抖节流","x":-500,"y":418,"width":200,"height":262,"color":"3"},
 		{"id":"ts","type":"text","text":"## TypeScript\n- 基础类型\n- 接口 vs 类型\n- 泛型\n- 高级类型\n- 实际场景用法","x":-450,"y":115,"width":180,"height":245,"color":"4"},
 		{"id":"htmlcss","type":"text","text":"## HTML/CSS\n- HTML 基础、语义化\n- CSS 选择器、盒模型\n- Flex/Grid 布局\n- 文字排版、Tailwind\n- 移动端适配","x":-500,"y":-377,"width":200,"height":305,"color":"2"},
 		{"id":"fundamental","type":"text","text":"## 基础理论\n- HTTP 基础\n- 浏览器原理\n- Web 安全\n- 设计模式\n- 常用算法","x":230,"y":-390,"width":180,"height":230,"color":"8"},
 		{"id":"center","type":"text","text":"# 前端知识体系\n完整分类技术文档","x":20,"y":40,"width":300,"height":80,"color":"1"},
-		{"id":"project","type":"text","text":"## 项目管理\n- 商业项目开发规划 & 进度追踪","x":-180,"y":-377,"width":320,"height":100,"color":"10"}
+		{"id":"project","type":"text","text":"## 项目管理\n- 商业项目开发规划 & 进度追踪","x":-180,"y":-377,"width":320,"height":100,"color":"10"},
+		{"id":"backend","type":"text","text":"## 后端 & 工程化\n- Node.js 基础\n- Vite vs Webpack\n- Git 常用命令\n- Docker 部署\n- Linux 命令","x":280,"y":418,"width":180,"height":280,"color":"7"}
 	],
 	"edges":[
 		{"id":"edge-html","fromNode":"center","fromSide":"top","toNode":"htmlcss","toSide":"right"},
