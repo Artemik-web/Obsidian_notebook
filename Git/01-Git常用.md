@@ -271,3 +271,10 @@ git stash push -m "message" path/to/file
 - 提交信息规范，方便查找
 - 善用 stash 保存临时改动
 - rebase 保持历史干净
+
+---
+
+## 相关笔记
+
+- ../工程化/[[Vite与Webpack对比]]
+- ../项目规划/[[商业项目开发流程]]
