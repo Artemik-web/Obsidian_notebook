@@ -9,7 +9,7 @@
 		{"id":"a7b8c9d0e1f2a346","type":"text","text":"## 其他框架\n- Svelte\n- SolidJS\n- Astro\n- 微前端\n- qiankun","x":300,"y":400,"width":180,"height":160,"color":"5"},
 		{"id":"b8c9d0e1f2a3b457","type":"text","text":"## 构建工具\n- Vite\n- Webpack\n- Rollup\n- ESBuild\n- Turbopack\n- 模块化开发","x":580,"y":-150,"width":180,"height":200,"color":"2"},
 		{"id":"c9d0e1f2a3b4c568","type":"text","text":"## Node.js\n- CommonJS / ESM\n- Buffer / Stream\n- Express / Koa\n- NestJS\n- 中间件\n- 文件操作","x":580,"y":100,"width":180,"height":200,"color":"4"},
-		{"id":"d0e1f2a3b4c5d679","type":"text","text":"## 工程化\n- Git 工作流\n- ESLint / Prettier\n- Husky / lint-staged\n- CI/CD\n- Docker\n- Linux 基础\n- Monorepo\n- pnpm / Nx / Turborepo","x":580,"y":350,"width":180,"height":240,"color":"1"},
+		{"id":"d0e1f2a3b4c5d679","type":"text","text":"## 工程化基础\n- Git 工作流\n- ESLint / Prettier\n- Husky / lint-staged\n- 代码审查\n- 提交规范 Conventional Commits","x":580,"y":350,"width":180,"height":220,"color":"1"},
 		{"id":"e1f2a3b4c5d6e78a","type":"text","text":"## 浏览器原理\n- 渲染进程、主线程\n- V8 垃圾回收\n- 重绘重排\n- 缓存机制\n- 跨域与 CORS","x":-300,"y":-450,"width":200,"height":200,"color":"3"},
 		{"id":"b4c5d6e7f8a9b01d","type":"text","text":"## 性能优化\n- 加载性能：资源压缩\n- 代码分割、懒加载\n- 运行时性能\n- 内存泄漏\n- LCP / FID / CLS\n- Core Web Vitals","x":-250,"y":450,"width":180,"height":220,"color":"2"},
 		{"id":"c5d6e7f8a9b0c12e","type":"text","text":"## 测试\n- 单元测试 Jest/Vitest\n- 组件测试 React Testing Library\n- E2E 测试 Cypress\n- Mock 方案\n- CI 集成","x":0,"y":450,"width":180,"height":200,"color":"4"},
@@ -17,7 +17,11 @@
 		{"id":"e7f8a9b0c1d2e340","type":"text","text":"## 进阶领域\n- 数据可视化：ECharts/D3\n- WebGL / Three.js\n- WebRTC\n- WebAssembly\n- PWA\n- Server Components","x":-800,"y":450,"width":200,"height":220,"color":"5"},
 		{"id":"f8a9b0c1d2e3f451","type":"text","text":"## 前端架构\n- 可维护性设计\n- 组件库建设\n- 前端框架原理\n- 状态管理设计\n- 错误监控\n- 日志上报","x":-800,"y":150,"width":200,"height":220,"color":"6"},
 		{"id":"f2a3b4c5d6e7f89b","type":"text","text":"## 网络协议\n- HTTP / HTTPS\n- HTTP 1.1 / 2 / 3\n- TCP 三次握手\n- DNS 解析\n- CDN 原理","x":-250,"y":-180,"width":200,"height":180,"color":"3"},
-		{"id":"a3b4c5d6e7f8a90c","type":"text","text":"## Web 安全\n- XSS 攻击与防御\n- CSRF 攻击与防御\n- CSP\n- HTTPS 加密\n- Clickjacking","x":-150,"y":180,"width":180,"height":160,"color":"1"}
+		{"id":"a3b4c5d6e7f8a90c","type":"text","text":"## Web 安全\n- XSS 攻击与防御\n- CSRF 攻击与防御\n- CSP\n- HTTPS 加密\n- Clickjacking","x":-150,"y":180,"width":180,"height":160,"color":"1"},
+		{"id":"d1e2f3a4b5c6d7e8","type":"text","text":"## 依赖管理\n- 包管理器：npm/yarn/pnpm\n- 版本语义 SemVer\n- lock 文件\n- 依赖分析\n- 漏洞检测 Snyk\n- 私有源配置","x":800,"y":-250,"width":180,"height":200,"color":"2"},
+		{"id":"e2f3a4b5c6d7e8f9","type":"text","text":"## CI/CD\n- 持续集成 / 部署\n- GitHub Actions\n- GitLab CI\n- Jenkins\n- 自动化构建\n- 多环境部署\n- 灰度发布","x":800,"y":0,"width":180,"height":200,"color":"4"},
+		{"id":"f3a4b5c6d7e8f9a0","type":"text","text":"## 部署运维\n- Docker 容器化\n- Nginx 配置\n- 域名与 HTTPS\n- Linux 基础命令\n- 服务器运维\n- CDN 配置\n- 静态网站托管","x":800,"y":250,"width":180,"height":220,"color":"3"},
+		{"id":"a4b5c6d7e8f9a0b1","type":"text","text":"## 项目架构\n- Monorepo\n- pnpm workspace\n- Nx / Turborepo\n- 多包管理\n- 版本发布 changesets\n- 代码共享","x":800,"y":500,"width":180,"height":200,"color":"6"}
 	],
 	"edges":[
 		{"id":"0123456789abcdef","fromNode":"a1b2c3d4e5f67890","fromSide":"top","toNode":"e1f2a3b4c5d6e78a","toSide":"bottom","label":"基础理论"},
@@ -39,7 +43,12 @@
 		{"id":"0123456789abcde1","fromNode":"c5d6e7f8a9b0c12e","fromSide":"right","toNode":"d6e7f8a9b0c1d23f","toSide":"left"},
 		{"id":"0123456789abcde2","fromNode":"a1b2c3d4e5f67890","fromSide":"left","toNode":"f8a9b0c1d2e3f451","toSide":"right","label":"进阶架构"},
 		{"id":"0123456789abcde3","fromNode":"b2c3d4e5f6a7b891","fromSide":"bottom","toNode":"d4e5f6a7b8c9d013","toSide":"top"},
-		{"id":"0123456789abcde4","fromNode":"d4e5f6a7b8c9d013","fromSide":"bottom","toNode":"c3d4e5f6a7b8c902","toSide":"top"}
+		{"id":"0123456789abcde4","fromNode":"d4e5f6a7b8c9d013","fromSide":"bottom","toNode":"c3d4e5f6a7b8c902","toSide":"top"},
+		{"id":"0123456789abcde5","fromNode":"b8c9d0e1f2a3b457","fromSide":"right","toNode":"d1e2f3a4b5c6d7e8","toSide":"left","label":"包管理"},
+		{"id":"0123456789abcde6","fromNode":"d1e2f3a4b5c6d7e8","fromSide":"bottom","toNode":"e2f3a4b5c6d7e8f9","toSide":"top"},
+		{"id":"0123456789abcde7","fromNode":"e2f3a4b5c6d7e8f9","fromSide":"bottom","toNode":"f3a4b5c6d7e8f9a0","toSide":"top"},
+		{"id":"0123456789abcde8","fromNode":"f3a4b5c6d7e8f9a0","fromSide":"bottom","toNode":"a4b5c6d7e8f9a0b1","toSide":"top"},
+		{"id":"0123456789abcde9","fromNode":"d0e1f2a3b4c5d679","fromSide":"right","toNode":"e2f3a4b5c6d7e8f9","toSide":"left","label":"自动化"}
 	],
 	"viewport":{"x":-400,"y":-100,"zoom":0.8}
 }
