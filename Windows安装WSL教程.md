@@ -173,11 +173,12 @@ ark-helper
 4. **配置套餐**
    - 根据界面提示完成套餐配置
    - 选择要配置的套餐：`[Volcano] Volcano Engine（国内）`
-![](assets/Windows安装WSL教程/file-20260407173617916.png)
+![](assets/Windows安装WSL教程/file-20260407173725821.png)
 4. **配置 API Key**
    - 获取并输入你的 API Key
-
-6. **选择默认模型**
+ ![](assets/Windows安装WSL教程/file-20260407173740083.png)
+![](assets/Windows安装WSL教程/file-20260407173750728.png)
+4. **选择默认模型**
    - 根据需要选择默认模型
 
 7. **配置 Claude Code**
