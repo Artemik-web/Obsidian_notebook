@@ -57,9 +57,9 @@ wsl --set-default-version 2
 ```
 
 ### 5. 安装 Linux 发行版
-
+直接下载第一个就行
 打开 Microsoft Store，搜索你喜欢的发行版并安装：
-- [Ubuntu 22.04 LTS](https://www.microsoft.com/store/apps/9PN20MSR04DW)
+- [Ubuntu](https://apps.microsoft.com/detail/9pdxgncfsczv?hl=zh-CN&gl=HK)
 - [Ubuntu 24.04 LTS](https://www.microsoft.com/store/productId/9NZ36TKBMD1B)
 - Debian, Fedora, SUSE 等也可用
 
@@ -67,7 +67,7 @@ wsl --set-default-version 2
 
 ---
 
-## 安装后的初始配置
+## 安装后的初始配置（可以不做操作）
 
 ### 1. 更新软件包
 ```bash
@@ -142,3 +142,7 @@ sudo sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 - 如果需要图形界面，可以考虑安装 WSLg（Windows 11 自带）或使用 X Server
 
 安装完成后你就拥有了一个可以正常使用的 Linux 环境了！
+
+
+
+
