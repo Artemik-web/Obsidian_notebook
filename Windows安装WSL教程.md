@@ -164,17 +164,17 @@ curl -fsSL https://lf3-static.bytednsdoc.com/obj/eden-cn/ylwslo-yrh/ljhwZthlaukj
 ```bash
 ark-helper --version
 ```
-
+![](assets/Windows安装WSL教程/file-20260407173551396.png)
 3. **启动 Ark Helper**
 ```bash
 ark-helper
 ```
-
+![](assets/Windows安装WSL教程/file-20260407173602238.png)
 4. **配置套餐**
    - 根据界面提示完成套餐配置
    - 选择要配置的套餐：`[Volcano] Volcano Engine（国内）`
-
-5. **配置 API Key**
+	![](assets/Windows安装WSL教程/file-20260407173617916.png)
+4. **配置 API Key**
    - 获取并输入你的 API Key
 
 6. **选择默认模型**
