@@ -186,6 +186,7 @@ ark-helper
    - 选择要配置的编码工具：`Claude Code`
    - ![](assets/Windows安装WSL教程/file-20260407173934793.png)
    - 选择设置 Volcano 配置到 Claude Code
+   ![](assets/Windows安装WSL教程/file-20260407173953282.png)
    - 配置完成后，选择退出
 
 > 如果需要重新配置工具，可先选择卸载 Claude Code 配置，再重新执行配置流程。
