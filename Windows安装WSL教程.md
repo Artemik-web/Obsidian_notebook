@@ -180,9 +180,11 @@ ark-helper
 ![](assets/Windows安装WSL教程/file-20260407173750728.png)
 4. **选择默认模型**
    - 根据需要选择默认模型
+![](assets/Windows安装WSL教程/file-20260407173858449.png)
 
 7. **配置 Claude Code**
    - 选择要配置的编码工具：`Claude Code`
+   - ![](assets/Windows安装WSL教程/file-20260407173934793.png)
    - 选择设置 Volcano 配置到 Claude Code
    - 配置完成后，选择退出
 
