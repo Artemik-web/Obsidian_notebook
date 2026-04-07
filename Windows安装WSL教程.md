@@ -143,34 +143,46 @@ sudo sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
 安装完成后你就拥有了一个可以正常使用的 Linux 环境了！
 
+---
 
+## 在 WSL 中安装 Claude Code
 
-claude code 安装
-方式一：自动化助手（推荐）
+### 方式一：使用 Ark Helper 自动配置（推荐）
+
 Ark Helper 是一个编码工具助手，支持快速配置选择的工具接入 Coding Plan。安装并运行该助手，根据界面提示操作可自动完成工具配置，降低手动配置的时间成本和出错风险。
-注意
-Ark Helper 仅支持 MacOS、Linux 系统，暂不支持 Windows 系统。
-以下配置步骤及截图为 Ark Helper 首次使用指引；非首次使用请按界面提示完成套餐配置和工具配置。
-执行以下命令安装 Ark Helper。
 
+> **注意**：Ark Helper 仅支持 MacOS、Linux 系统，Windows 下需要在 WSL 中使用。
+
+#### 安装步骤：
+
+1. **安装 Ark Helper**
+```bash
 curl -fsSL https://lf3-static.bytednsdoc.com/obj/eden-cn/ylwslo-yrh/ljhwZthlaukjlkulzlp/install.sh | sh
+```
 
-安装完成后，执行以下命令查看安装的版本号。
+2. **验证安装**
+```bash
 ark-helper --version
+```
 
-在命令行界面输入ark-helper命令，启动 Ark Helper。
- 
-根据界面提示完成套餐配置。
-选择要配置的套餐：[Volcano] Volcano Engine（国内）。
- 
-配置 API Key： 获取 API Key。
- 
- 
-选择默认模型。
- 
-根据界面提示完成 Claude Code 工具配置。
-选择要配置的编码工具：Claude Code。
- 
-选择设置 Volcano 配置到 Claude Code，配置完成后，选择退出。如果需要重新配置工具，可先选择卸载 Claude Code 配置，再重新执行配置流程。
- 
+3. **启动 Ark Helper**
+```bash
+ark-helper
+```
 
+4. **配置套餐**
+   - 根据界面提示完成套餐配置
+   - 选择要配置的套餐：`[Volcano] Volcano Engine（国内）`
+
+5. **配置 API Key**
+   - 获取并输入你的 API Key
+
+6. **选择默认模型**
+   - 根据需要选择默认模型
+
+7. **配置 Claude Code**
+   - 选择要配置的编码工具：`Claude Code`
+   - 选择设置 Volcano 配置到 Claude Code
+   - 配置完成后，选择退出
+
+> 如果需要重新配置工具，可先选择卸载 Claude Code 配置，再重新执行配置流程。
