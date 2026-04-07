@@ -173,7 +173,7 @@ ark-helper
 4. **配置套餐**
    - 根据界面提示完成套餐配置
    - 选择要配置的套餐：`[Volcano] Volcano Engine（国内）`
-	![](assets/Windows安装WSL教程/file-20260407173617916.png)
+![](assets/Windows安装WSL教程/file-20260407173617916.png)
 4. **配置 API Key**
    - 获取并输入你的 API Key
 
