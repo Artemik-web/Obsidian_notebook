@@ -46,6 +46,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ### 3. 下载并安装 WSL 2 Linux 内核更新包
 
 - 下载地址：[WSL2 Linux 内核更新包](https://aka.ms/wsl2kernel)
+- 选择适配自己设备的版本
+  ![](assets/Windows安装WSL教程/file-20260407172435344.png)
 - 下载后运行 `wsl_update_x64.msi` 安装
 
 ### 4. 设置 WSL 2 为默认版本
