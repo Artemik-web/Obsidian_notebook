@@ -1,4 +1,4 @@
-x# Web 安全基础
+# Web 安全基础
 
 ## XSS 跨站脚本攻击 Cross-Site Scripting
 
