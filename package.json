@@ -10,7 +10,7 @@
     "summary": "node tools/summary-generator.js",
     "整理": "node tools/weekly-整理.js",
     "weekly": "node tools/weekly-整理.js",
-    "help": "echo '使用 npm run <命令>\\n  index  - 更新索引\\n  search - 搜索\\n  qa     - 问答\\n  health - 健康检查\\n  weekly - 每周整理'"
+    "help": "node -e \"console.log('使用 npm run <命令>\\n  index  - 更新索引\\n  search - 搜索\\n  qa     - 问答\\n  health - 健康检查\\n  weekly - 每周整理')\""
   },
   "keywords": ["knowledge-base", "llm", "obsidian", "frontend"],
   "author": "",
