@@ -297,7 +297,7 @@ async function getData() {
 - 错误处理方便，4xx 5xx 都会进 catch
 - 支持拦截请求响应，取消请求等
 
-项目开发一般用 axios。
+项目开发一般用 axios。详细教程请看：[[05-Axios接口对接]]
 
 ## 7. JSON 处理
 

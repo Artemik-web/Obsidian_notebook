@@ -41,8 +41,10 @@ function checkBacklinks(documents) {
   documents.forEach(doc => {
     if (doc.backlinks) {
       doc.backlinks.forEach(link => {
-        // 检查链接的文档是否存在
-        const linkExists = allTitles.has(link) || allPaths.has(link);
+        // 检查链接的文档是否存在 - 处理带路径的链接
+        const linkName = link.includes('/') ? path.basename(link) : link;
+        const linkExists = allTitles.has(link) || allTitles.has(linkName) ||
+                          allPaths.has(link) || allPaths.has(linkName);
         if (!linkExists) {
           issues.push({
             document: doc.title,

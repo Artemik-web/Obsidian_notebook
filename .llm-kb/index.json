@@ -3,8 +3,8 @@
     "title": "前端开发知识体系",
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
-    "totalDocuments": 58,
-    "totalWords": 312449
+    "totalDocuments": 59,
+    "totalWords": 322240
   },
   "documents": [
     {
@@ -270,16 +270,32 @@
       "title": "异步与AJAX",
       "path": "JavaScript\\04-异步与AJAX.md",
       "topic": "JavaScript",
-      "wordCount": 7635,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 7658,
+      "lastUpdated": "2026-04-09",
       "summary": "JavaScript 语言设计上就是**单线程**，同一时间只能做一件事。...",
       "tags": [],
       "backlinks": [
+        "05-Axios接口对接",
         "01-JavaScript基础",
         "02-对象与函数进阶",
         "03-DOM操作",
         "01-HTTP基础",
         "01-Web安全基础"
+      ]
+    },
+    {
+      "id": "javascript-axios接口对接",
+      "title": "Axios接口对接",
+      "path": "JavaScript\\05-Axios接口对接.md",
+      "topic": "JavaScript",
+      "wordCount": 9768,
+      "lastUpdated": "2026-04-09",
+      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，用于浏览器和 Node.js。它提供了以下特点：...",
+      "tags": [],
+      "backlinks": [
+        "04-异步与AJAX",
+        "Vue/04-路由与Pinia",
+        "React/04-React路由与状态管理"
       ]
     },
     {
