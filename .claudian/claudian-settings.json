@@ -1,8 +1,8 @@
 {
   "userName": "",
-  "permissionMode": "normal",
-  "model": "opus",
-  "thinkingBudget": "medium",
+  "permissionMode": "yolo",
+  "model": "sonnet",
+  "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -24,13 +24,15 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-GLKNR27": "D:\\AppData\\nodejs\\node_global\\node_modules\\@anthropic-ai\\claude-code\\cli.js"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "opus",
+      "lastModel": "sonnet",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -50,14 +52,14 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus"
+    "claude": "sonnet"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "medium"
+    "claude": "low"
   },
   "lastCustomModel": "",
   "maxTabs": 3,

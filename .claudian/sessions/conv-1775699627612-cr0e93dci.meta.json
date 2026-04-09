@@ -4,8 +4,19 @@
   "title": "1",
   "titleGenerationStatus": "failed",
   "createdAt": 1775699627613,
-  "updatedAt": 1775700440483,
-  "lastResponseAt": 1775700440483,
-  "sessionId": null,
-  "providerState": {}
+  "updatedAt": 1775701414894,
+  "lastResponseAt": 1775701305624,
+  "sessionId": "046e261e-9ac1-442f-a80e-f443c89d2386",
+  "providerState": {
+    "providerSessionId": "046e261e-9ac1-442f-a80e-f443c89d2386"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
 }

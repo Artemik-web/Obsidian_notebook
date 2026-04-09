@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775701411862-ud2umu5ap",
+  "providerId": "claude",
+  "title": "Generate title for user input containing the nu...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775701411866,
+  "updatedAt": 1775701475177,
+  "lastResponseAt": 1775701475177,
+  "sessionId": "f257d1a6-e750-4d86-a99e-d49836225304",
+  "providerState": {
+    "providerSessionId": "f257d1a6-e750-4d86-a99e-d49836225304"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 22584,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22584,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
