@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
     "totalDocuments": 57,
-    "totalWords": 311363
+    "totalWords": 311468
   },
   "documents": [
     {
@@ -680,13 +680,15 @@
       "title": "ViteWebpack基础",
       "path": "工程化\\01-ViteWebpack基础.md",
       "topic": "工程化",
-      "wordCount": 3654,
+      "wordCount": 3698,
       "lastUpdated": "2026-04-09",
       "summary": "把开发写的源代码转换成浏览器能跑的代码：...",
       "tags": [],
       "backlinks": [
         "08-Vue性能优化",
-        "规划进度"
+        "规划进度",
+        "01-微前端基础",
+        "01-移动端适配"
       ]
     },
     {
@@ -722,13 +724,16 @@
       "title": "部署运维",
       "path": "工程化\\04-部署运维.md",
       "topic": "工程化",
-      "wordCount": 3327,
-      "lastUpdated": "2026-03-18",
+      "wordCount": 3402,
+      "lastUpdated": "2026-04-09",
       "summary": "- 把应用和依赖打包成一个镜像，任何机器跑起来都一样...",
       "tags": [],
       "backlinks": [
         "03-CICD",
-        "05-代码规范"
+        "05-代码规范",
+        "01-Docker基础",
+        "01-服务器常用命令",
+        "规划进度"
       ]
     },
     {
@@ -752,13 +757,12 @@
       "title": "Monorepo",
       "path": "工程化\\06-Monorepo.md",
       "topic": "工程化",
-      "wordCount": 2568,
+      "wordCount": 2556,
       "lastUpdated": "2026-04-09",
       "summary": "**Monorepo** = 一个仓库放多个包/项目，这些包可以互相依赖。...",
       "tags": [],
       "backlinks": [
-        "02-依赖管理",
-        "组件库建设"
+        "02-依赖管理"
       ]
     },
     {
@@ -895,15 +899,15 @@
       "title": "规划进度",
       "path": "项目相关文档\\规划进度.md",
       "topic": "项目相关文档",
-      "wordCount": 7527,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 7525,
+      "lastUpdated": "2026-04-09",
       "summary": "> **项目周期**：`2026年3月8日 — 2026年6月10日` (共 14 周)...",
       "tags": [],
       "backlinks": [
         "01-ViteWebpack基础",
         "01-Docker基础",
         "01-服务器常用命令",
-        "01-Git常用命令"
+        "01-Git常用"
       ]
     },
     {
