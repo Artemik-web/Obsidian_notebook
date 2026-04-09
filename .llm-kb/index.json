@@ -3,8 +3,8 @@
     "title": "前端开发知识体系",
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
-    "totalDocuments": 54,
-    "totalWords": 290537
+    "totalDocuments": 57,
+    "totalWords": 311363
   },
   "documents": [
     {
@@ -866,6 +866,44 @@
         "01-ViteWebpack基础",
         "04-路由与Pinia",
         "01-前端常用设计模式"
+      ]
+    },
+    {
+      "id": "项目相关文档-kpi制度与实现方案",
+      "title": "KPI制度与实现方案",
+      "path": "项目相关文档\\KPI制度与实现方案.md",
+      "topic": "项目相关文档",
+      "wordCount": 12376,
+      "lastUpdated": "2026-03-30",
+      "summary": "> 💡 **一句话说明**：KPI关键绩效指标，说白了就是**\"把每个人做了多少事、做得好不好，用清晰标准说清楚\"**，避免\"干多干少一个样，干好干坏一个样\"，让真正努力的同学得到应有的认可和机会。...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
+      "id": "项目相关文档-工作制度",
+      "title": "工作制度",
+      "path": "项目相关文档\\工作制度.md",
+      "topic": "项目相关文档",
+      "wordCount": 923,
+      "lastUpdated": "2026-03-19",
+      "summary": "项目团队管理制度...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
+      "id": "项目相关文档-规划进度",
+      "title": "规划进度",
+      "path": "项目相关文档\\规划进度.md",
+      "topic": "项目相关文档",
+      "wordCount": 7527,
+      "lastUpdated": "2026-03-17",
+      "summary": "> **项目周期**：`2026年3月8日 — 2026年6月10日` (共 14 周)...",
+      "tags": [],
+      "backlinks": [
+        "01-ViteWebpack基础",
+        "01-Docker基础",
+        "01-服务器常用命令",
+        "01-Git常用命令"
       ]
     },
     {
