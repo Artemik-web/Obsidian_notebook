@@ -3,8 +3,8 @@
     "title": "前端开发知识体系",
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
-    "totalDocuments": 57,
-    "totalWords": 311468
+    "totalDocuments": 58,
+    "totalWords": 312513
   },
   "documents": [
     {
@@ -542,6 +542,22 @@
         "08-Vue性能优化",
         "09-常用组合式函数",
         "04-异步与AJAX"
+      ]
+    },
+    {
+      "id": "vue-vue3性能优化-llm编译",
+      "title": "Vue3性能优化-LLM编译",
+      "path": "Vue\\11-Vue3性能优化-LLM编译.md",
+      "topic": "Vue",
+      "wordCount": 1045,
+      "lastUpdated": "2026-04-09",
+      "summary": "本文根据原始资料整理，介绍 Vue3 性能优化的最佳实践。...",
+      "tags": [],
+      "backlinks": [
+        "08-Vue性能优化",
+        "03-组件与组合式API",
+        "01-React基础",
+        "01-ViteWebpack基础"
       ]
     },
     {
