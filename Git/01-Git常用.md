@@ -276,5 +276,5 @@ git stash push -m "message" path/to/file
 
 ## 相关笔记
 
-- ../工程化/[[Vite与Webpack对比]]
-- ../项目规划/[[商业项目开发流程]]
+- ../工程化/[[01-ViteWebpack基础]]
+- ../项目相关文档/[[规划进度]]

@@ -3,8 +3,8 @@
     "title": "前端开发知识体系",
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
-    "totalDocuments": 53,
-    "totalWords": 285568
+    "totalDocuments": 54,
+    "totalWords": 290537
   },
   "documents": [
     {
@@ -368,8 +368,8 @@
       "title": "Vue3基础",
       "path": "Vue\\01-Vue3基础.md",
       "topic": "Vue",
-      "wordCount": 7070,
-      "lastUpdated": "2026-03-19",
+      "wordCount": 7072,
+      "lastUpdated": "2026-04-09",
       "summary": "Vue (发音 /vjuː/，类似 view) 是一套用于构建用户界面的**渐进式框架**。...",
       "tags": [
         "app"
@@ -380,7 +380,7 @@
         "04-路由与Pinia",
         "05-Vue2对比Vue3",
         "05-实际场景用法",
-        "Vite与Webpack对比"
+        "01-ViteWebpack基础"
       ]
     },
     {
@@ -549,8 +549,8 @@
       "title": "React基础",
       "path": "React\\01-React基础.md",
       "topic": "React",
-      "wordCount": 4584,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 4586,
+      "lastUpdated": "2026-04-09",
       "summary": "React 是一个用于构建用户界面的 **JavaScript 库**，由 Facebook 开发维护。...",
       "tags": [],
       "backlinks": [
@@ -558,7 +558,7 @@
         "03-组件通信",
         "04-React路由与状态管理",
         "05-React性能优化",
-        "Vite与Webpack对比"
+        "01-ViteWebpack基础"
       ]
     },
     {
@@ -680,13 +680,13 @@
       "title": "ViteWebpack基础",
       "path": "工程化\\01-ViteWebpack基础.md",
       "topic": "工程化",
-      "wordCount": 3656,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 3654,
+      "lastUpdated": "2026-04-09",
       "summary": "把开发写的源代码转换成浏览器能跑的代码：...",
       "tags": [],
       "backlinks": [
         "08-Vue性能优化",
-        "商业项目开发规划"
+        "规划进度"
       ]
     },
     {
@@ -752,13 +752,13 @@
       "title": "Monorepo",
       "path": "工程化\\06-Monorepo.md",
       "topic": "工程化",
-      "wordCount": 2576,
-      "lastUpdated": "2026-03-18",
+      "wordCount": 2568,
+      "lastUpdated": "2026-04-09",
       "summary": "**Monorepo** = 一个仓库放多个包/项目，这些包可以互相依赖。...",
       "tags": [],
       "backlinks": [
         "02-依赖管理",
-        "../前端架构/组件库建设"
+        "组件库建设"
       ]
     },
     {
@@ -767,12 +767,12 @@
       "path": "Git\\01-Git常用.md",
       "topic": "Git",
       "wordCount": 3233,
-      "lastUpdated": "2026-03-17",
+      "lastUpdated": "2026-04-09",
       "summary": "```bash...",
       "tags": [],
       "backlinks": [
-        "Vite与Webpack对比",
-        "商业项目开发流程"
+        "01-ViteWebpack基础",
+        "规划进度"
       ]
     },
     {
@@ -780,13 +780,13 @@
       "title": "Docker基础",
       "path": "Docker\\01-Docker基础.md",
       "topic": "Docker",
-      "wordCount": 3707,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 3703,
+      "lastUpdated": "2026-04-09",
       "summary": "- 容器化技术，把应用和依赖打包到一个可移植的容器里，一次打包到处运行...",
       "tags": [],
       "backlinks": [
-        "商业项目开发规划",
-        "01-Linux常用命令"
+        "规划进度",
+        "01-服务器常用命令"
       ]
     },
     {
@@ -794,14 +794,14 @@
       "title": "服务器常用命令",
       "path": "Linux\\01-服务器常用命令.md",
       "topic": "Linux",
-      "wordCount": 4262,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 4258,
+      "lastUpdated": "2026-04-09",
       "summary": "日常开发部署、排查问题常用命令，整理前端开发常用的，够用就行。...",
       "tags": [],
       "backlinks": [
-        "01-Git常用命令",
+        "01-Git常用",
         "01-Docker基础",
-        "商业项目开发规划"
+        "规划进度"
       ]
     },
     {
@@ -838,8 +838,8 @@
       "title": "移动端适配",
       "path": "移动端\\01-移动端适配.md",
       "topic": "移动端",
-      "wordCount": 3740,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 3735,
+      "lastUpdated": "2026-04-09",
       "summary": "移动端屏幕比 PC 小，早期为了在小屏幕显示 PC 端网站，浏览器把页面缩放到视口里，用户缩放看。现在做移动端适配需要设置 viewport。...",
       "tags": [
         "000"
@@ -847,7 +847,7 @@
       "backlinks": [
         "03-盒模型与布局",
         "01-CSS基础",
-        "01-Tailwind基础"
+        "05-Tailwind基础"
       ]
     },
     {
@@ -873,9 +873,22 @@
       "title": "01-浏览器工作原理",
       "path": "01-浏览器工作原理.md",
       "topic": "其他",
-      "wordCount": 0,
-      "lastUpdated": "2026-03-17",
-      "summary": "无摘要",
+      "wordCount": 2317,
+      "lastUpdated": "2026-04-09",
+      "summary": "现代浏览器采用多进程架构：...",
+      "tags": [
+        "document"
+      ],
+      "backlinks": []
+    },
+    {
+      "id": "其他-quick-start",
+      "title": "quick-start",
+      "path": "quick-start.md",
+      "topic": "其他",
+      "wordCount": 2094,
+      "lastUpdated": "2026-04-09",
+      "summary": "基于 LLM Knowledge Bases 方法构建的智能前端开发知识库。...",
       "tags": [],
       "backlinks": []
     },
@@ -884,11 +897,13 @@
       "title": "README",
       "path": "README.md",
       "topic": "其他",
-      "wordCount": 2253,
-      "lastUpdated": "2026-03-17",
+      "wordCount": 2830,
+      "lastUpdated": "2026-04-09",
       "summary": "> 分类整理的完整前端技术学习笔记，Obsidian 维护，带双向链接知识图谱 + Canvas 脑图。...",
       "tags": [],
-      "backlinks": []
+      "backlinks": [
+        "quick-start"
+      ]
     },
     {
       "id": "其他-windows安装wsl教程",
