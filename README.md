@@ -1,6 +1,44 @@
 # 前端技术知识笔记
 
 > 分类整理的完整前端技术学习笔记，Obsidian 维护，带双向链接知识图谱 + Canvas 脑图。
+>
+> 🤖 **已升级为 LLM 知识库系统** - 支持智能问答、自动索引、健康检查等功能
+
+---
+
+## 🤖 LLM 知识库系统
+
+本知识库已按照 [LLM Knowledge Bases](https://news.ycombinator.com/item?id=40840111) 方法升级，具有以下特性：
+
+- **自动索引**：扫描知识库并构建搜索索引
+- **智能搜索**：快速查找相关文档
+- **问答系统**：基于知识库内容回答问题
+- **健康检查**：自动检测断裂链接和问题
+- **摘要生成**：自动生成文档和主题摘要
+- **增量更新**：LLM 维护知识，无需手动编辑
+
+### 快速开始
+
+```bash
+# 查看知识库健康状态
+node tools/health-check.js
+
+# 搜索内容
+node tools/search.js "Vue3 响应式"
+
+# 问答系统
+node tools/qa-system.js "什么是 React Hooks？"
+
+# 生成主题摘要
+node tools/summary-generator.js --topic Vue
+
+# 更新索引（添加新笔记后）
+node tools/indexer.js
+```
+
+详细指南请查看：[[quick-start]]
+
+---
 
 ## 📚 知识库结构
 
