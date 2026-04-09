@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
     "totalDocuments": 58,
-    "totalWords": 312626
+    "totalWords": 312449
   },
   "documents": [
     {
@@ -678,6 +678,19 @@
       ]
     },
     {
+      "id": "浏览器-浏览器工作原理",
+      "title": "浏览器工作原理",
+      "path": "浏览器\\01-浏览器工作原理.md",
+      "topic": "浏览器",
+      "wordCount": 2317,
+      "lastUpdated": "2026-04-09",
+      "summary": "现代浏览器采用多进程架构：...",
+      "tags": [
+        "document"
+      ],
+      "backlinks": []
+    },
+    {
       "id": "安全-web安全基础",
       "title": "Web安全基础",
       "path": "安全\\01-Web安全基础.md",
@@ -830,6 +843,17 @@
       ]
     },
     {
+      "id": "linux-windows安装wsl教程",
+      "title": "Windows安装WSL教程",
+      "path": "Linux\\Windows安装WSL教程.md",
+      "topic": "Linux",
+      "wordCount": 3789,
+      "lastUpdated": "2026-04-07",
+      "summary": "WSL 是 Windows 下的 Linux 子系统，可以让你在 Windows 上直接运行 Linux 环境，无需虚拟机。本文介绍两种安装方法。...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
       "id": "算法-常见算法与数据结构",
       "title": "常见算法与数据结构",
       "path": "算法\\01-常见算法与数据结构.md",
@@ -916,6 +940,17 @@
       "backlinks": []
     },
     {
+      "id": "项目相关文档-用户测试流程",
+      "title": "用户测试流程",
+      "path": "项目相关文档\\用户测试流程.md",
+      "topic": "项目相关文档",
+      "wordCount": 3283,
+      "lastUpdated": "2026-03-19",
+      "summary": "从普通用户的角度出发，按照真实使用路径逐步测试系统功能，验证每个环节是否正常可用。...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
       "id": "项目相关文档-规划进度",
       "title": "规划进度",
       "path": "项目相关文档\\规划进度.md",
@@ -932,24 +967,11 @@
       ]
     },
     {
-      "id": "其他-01-浏览器工作原理",
-      "title": "01-浏览器工作原理",
-      "path": "01-浏览器工作原理.md",
-      "topic": "其他",
-      "wordCount": 2317,
-      "lastUpdated": "2026-04-09",
-      "summary": "现代浏览器采用多进程架构：...",
-      "tags": [
-        "document"
-      ],
-      "backlinks": []
-    },
-    {
       "id": "其他-quick-start",
       "title": "quick-start",
       "path": "quick-start.md",
       "topic": "其他",
-      "wordCount": 2094,
+      "wordCount": 1946,
       "lastUpdated": "2026-04-09",
       "summary": "基于 LLM Knowledge Bases 方法构建的智能前端开发知识库。...",
       "tags": [],
@@ -960,35 +982,13 @@
       "title": "README",
       "path": "README.md",
       "topic": "其他",
-      "wordCount": 2830,
+      "wordCount": 2801,
       "lastUpdated": "2026-04-09",
       "summary": "> 分类整理的完整前端技术学习笔记，Obsidian 维护，带双向链接知识图谱 + Canvas 脑图。...",
       "tags": [],
       "backlinks": [
         "quick-start"
       ]
-    },
-    {
-      "id": "其他-windows安装wsl教程",
-      "title": "Windows安装WSL教程",
-      "path": "Windows安装WSL教程.md",
-      "topic": "其他",
-      "wordCount": 3789,
-      "lastUpdated": "2026-04-07",
-      "summary": "WSL 是 Windows 下的 Linux 子系统，可以让你在 Windows 上直接运行 Linux 环境，无需虚拟机。本文介绍两种安装方法。...",
-      "tags": [],
-      "backlinks": []
-    },
-    {
-      "id": "其他-用户测试流程",
-      "title": "用户测试流程",
-      "path": "用户测试流程.md",
-      "topic": "其他",
-      "wordCount": 3283,
-      "lastUpdated": "2026-03-19",
-      "summary": "从普通用户的角度出发，按照真实使用路径逐步测试系统功能，验证每个环节是否正常可用。...",
-      "tags": [],
-      "backlinks": []
     }
   ]
 }
