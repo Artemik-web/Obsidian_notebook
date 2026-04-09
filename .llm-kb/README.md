@@ -39,7 +39,7 @@
 将原始资料放入 `raw/` 目录，然后运行索引工具：
 
 ```bash
-node tools/indexer.js
+npm run index
 ```
 
 ### 2. Q&A 查询
@@ -47,7 +47,7 @@ node tools/indexer.js
 使用搜索工具查找知识：
 
 ```bash
-node tools/search.js "Vue3 响应式原理"
+npm run search "Vue3 响应式原理"
 ```
 
 ### 3. 健康检查
@@ -55,7 +55,7 @@ node tools/search.js "Vue3 响应式原理"
 检查知识库的完整性和一致性：
 
 ```bash
-node tools/health-check.js
+npm run health
 ```
 
 ### 4. 生成输出
@@ -64,10 +64,18 @@ node tools/health-check.js
 
 ```bash
 # 生成某个主题的摘要
-node tools/generate-summary.js "JavaScript 异步编程"
+npm run summary -- "JavaScript 异步编程"
 
 # 生成幻灯片
-node tools/generate-slides.js "React Hooks"
+npm run summary -- --topic "React Hooks"
+```
+
+### 5. 每周整理
+
+查看新内容并整理：
+
+```bash
+npm run weekly
 ```
 
 ## 工作流

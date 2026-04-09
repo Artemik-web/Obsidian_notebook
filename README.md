@@ -21,19 +21,22 @@
 
 ```bash
 # 查看知识库健康状态
-node tools/health-check.js
+npm run health
 
 # 搜索内容
-node tools/search.js "Vue3 响应式"
+npm run search "Vue3 响应式"
 
 # 问答系统
-node tools/qa-system.js "什么是 React Hooks？"
+npm run qa "什么是 React Hooks？"
 
 # 生成主题摘要
-node tools/summary-generator.js --topic Vue
+npm run summary -- --topic Vue
 
 # 更新索引（添加新笔记后）
-node tools/indexer.js
+npm run index
+
+# 每周整理
+npm run weekly
 ```
 
 详细指南请查看：[[quick-start]]

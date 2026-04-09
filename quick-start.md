@@ -9,27 +9,27 @@
 首先运行健康检查：
 
 ```bash
-node tools/health-check.js
+npm run health
 ```
 
 ### 2. 搜索和查询
 
 ```bash
 # 搜索内容
-node tools/search.js "Vue3 响应式"
+npm run search "Vue3 响应式"
 
 # 问答系统
-node tools/qa-system.js "JavaScript 异步编程"
+npm run qa "JavaScript 异步编程"
 ```
 
 ### 3. 生成摘要
 
 ```bash
 # 生成 Vue 主题的摘要
-node tools/summary-generator.js --topic Vue
+npm run summary -- --topic Vue
 
 # 生成整个知识库的摘要
-node tools/summary-generator.js --all
+npm run summary -- --all
 ```
 
 ### 4. 更新索引
@@ -37,7 +37,7 @@ node tools/summary-generator.js --all
 当添加或修改笔记时，更新索引：
 
 ```bash
-node tools/indexer.js
+npm run index
 ```
 
 ## 📁 目录结构
@@ -74,24 +74,24 @@ node tools/indexer.js
 ### 搜索工具
 
 ```bash
-node tools/search.js "搜索关键词"
+npm run search "搜索关键词"
 # 例如搜索 JavaScript 相关文档
-node tools/search.js "JavaScript 数组方法"
+npm run search "JavaScript 数组方法"
 ```
 
 ### 问答系统
 
 ```bash
-node tools/qa-system.js "问题"
+npm run qa "问题"
 # 例如
-node tools/qa-system.js "什么是 React Hooks？"
-node tools/qa-system.js "Vue3 的响应式原理是什么？"
+npm run qa "什么是 React Hooks？"
+npm run qa "Vue3 的响应式原理是什么？"
 ```
 
 ### 健康检查
 
 ```bash
-node tools/health-check.js
+npm run health
 ```
 
 ## 💡 最佳实践
@@ -122,13 +122,13 @@ node tools/health-check.js
 ### 索引过时
 
 ```bash
-node tools/indexer.js
+npm run index
 ```
 
 ### 链接断开
 
 ```bash
-node tools/health-check.js
+npm run health
 ```
 
 ### 搜索结果不理想
