@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "lastUpdated": "2026-04-09",
     "totalDocuments": 58,
-    "totalWords": 312513
+    "totalWords": 312626
   },
   "documents": [
     {
@@ -696,15 +696,20 @@
       "title": "ViteWebpack基础",
       "path": "工程化\\01-ViteWebpack基础.md",
       "topic": "工程化",
-      "wordCount": 3698,
+      "wordCount": 3811,
       "lastUpdated": "2026-04-09",
       "summary": "把开发写的源代码转换成浏览器能跑的代码：...",
       "tags": [],
       "backlinks": [
         "08-Vue性能优化",
+        "11-Vue3性能优化-LLM编译",
         "规划进度",
+        "工作制度",
+        "KPI制度与实现方案",
         "01-微前端基础",
-        "01-移动端适配"
+        "01-移动端适配",
+        "Windows安装WSL教程",
+        "用户测试流程"
       ]
     },
     {
