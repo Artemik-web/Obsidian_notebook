@@ -2,9 +2,9 @@
   "metadata": {
     "title": "前端开发知识体系",
     "version": "1.0.0",
-    "lastUpdated": "2026-04-09",
-    "totalDocuments": 59,
-    "totalWords": 322240
+    "lastUpdated": "2026-04-14",
+    "totalDocuments": 60,
+    "totalWords": 322687
   },
   "documents": [
     {
@@ -712,7 +712,7 @@
       "path": "安全\\01-Web安全基础.md",
       "topic": "安全",
       "wordCount": 2529,
-      "lastUpdated": "2026-03-17",
+      "lastUpdated": "2026-04-09",
       "summary": "攻击者往网页注入恶意脚本，用户访问页面时恶意脚本执行，偷取信息。...",
       "tags": [],
       "backlinks": [
@@ -952,6 +952,17 @@
       "wordCount": 923,
       "lastUpdated": "2026-03-19",
       "summary": "项目团队管理制度...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
+      "id": "项目相关文档-开会纪要",
+      "title": "开会纪要",
+      "path": "项目相关文档\\开会纪要.md",
+      "topic": "项目相关文档",
+      "wordCount": 447,
+      "lastUpdated": "2026-04-14",
+      "summary": "- **会议主题**:...",
       "tags": [],
       "backlinks": []
     },
