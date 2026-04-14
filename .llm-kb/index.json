@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "lastUpdated": "2026-04-14",
     "totalDocuments": 60,
-    "totalWords": 325121
+    "totalWords": 326308
   },
   "documents": [
     {
@@ -14,7 +14,7 @@
       "topic": "HTML",
       "wordCount": 5880,
       "lastUpdated": "2026-03-17",
-      "summary": "HTML（HyperText Markup Language，超文本标记语言）是构建 Web 页面的标准标记语言。HTML 描述了一个网站的结构，使用标记来标识不同的内容元素。...",
+      "summary": "HTML（HyperText Markup Language，超文本标记语言）是构建 Web 页面的标准标记语言。HTML 描述了一个网站的结构，使用标记来标识不同的内容元素。 | 标签 | 描述 | 示例 | |------|------|------| | `<h1>` - `<h6>` | 标题标签 | `<h1>一级标题</h1>` | | `<p>` | 段落 | `<p>这是一个段落</p>` | | `<a>` | 链接 | `<a href=\"https://example.com\">链接文本</a>` | | `<img>` | 图片 | `<img src=\"image.j...",
       "tags": [],
       "backlinks": [
         "02-HTML元素与属性",
@@ -31,7 +31,7 @@
       "topic": "HTML",
       "wordCount": 7120,
       "lastUpdated": "2026-03-17",
-      "summary": "块级元素在浏览器中默认占据一整行。...",
+      "summary": "块级元素在浏览器中默认占据一整行。 常见块级元素： - `<div>` - 通用块容器 - `<p>` - 段落 - `<h1>`-`<h6>` - 标题 - `<ul>`-`<ol>`-`<li>` - 列表 - `<table>` - 表格 - `<form>` - 表单 - `<main>` - 主要内容区域 - `<header>` - 页眉 - `<footer>` - 页脚 - `<section>` - 区块 - `<article>` - 文章 - `<nav>` - 导航 - `<aside>` - 侧边栏 - 默认宽度为父容器的 100% - 每个块级元素都会另起一行显示 ...",
       "tags": [
         "section1",
         "id",
@@ -64,7 +64,7 @@
       "topic": "HTML",
       "wordCount": 8812,
       "lastUpdated": "2026-03-17",
-      "summary": "语义化 = 用正确的标签做正确的事情。...",
+      "summary": "语义化 = 用正确的标签做正确的事情。 HTML 语义化指的是：根据内容的结构，选择合适的 HTML 标签，让代码结构清晰，易于阅读和维护。 1. **可读性** - 结构清晰，便于团队开发和维护 2. **可维护性** - 修改时更容易找到对应区域 3. **SEO** - 搜索引擎更容易理解页面结构 4. **可访问性** - 屏幕阅读器等辅助设备更好地工作 5. **无障碍** - 对残障人士更友好 6. **即使没有 CSS，页面也能呈现出良好的结构 | 标签 | 语义 | 使用场景 | |------|------|----------| | `<header>` | 页眉/头部 |...",
       "tags": [
         "chapter1",
         "chapter2"
@@ -83,7 +83,7 @@
       "topic": "HTML",
       "wordCount": 10348,
       "lastUpdated": "2026-03-17",
-      "summary": "表格用于展示二维数据（行和列）。...",
+      "summary": "表格用于展示二维数据（行和列）。 | 标签 | 说明 | |------|------| | `<table>` | 表格容器 | | `<tr>` | table row - 行 | | `<th>` | table header - 表头单元格 | | `<td>` | table data - 数据单元格 | | `<thead>` | 表头区域 | | `<tbody>` | 主体区域 | | `<tfoot>` | 表尾区域 | | `<caption>` | 表格标题 | | `<colgroup>` | 列分组 | | `<col>` | 列定义 | **规则：** 在起始单元格...",
       "tags": [
         "eee",
         "ccc",
@@ -104,7 +104,7 @@
       "topic": "CSS",
       "wordCount": 7633,
       "lastUpdated": "2026-03-17",
-      "summary": "CSS（Cascading Style Sheets，层叠样式表）用于描述 HTML 文档的外观和样式。CSS 负责网页的\"颜值\"，HTML 负责网页的结构。...",
+      "summary": "CSS（Cascading Style Sheets，层叠样式表）用于描述 HTML 文档的外观和样式。CSS 负责网页的\"颜值\"，HTML 负责网页的结构。 - HTML：做结构（骨架） - CSS：做表现（外观） 写在标签的 `style` 属性里： **缺点**：不能复用，结构样式混在一起，不推荐。 写在 `<style>` 标签里： 适合单个页面的特殊样式。 写在单独的 `.css` 文件中，通过 `<link>` 引入： `style.css`： **优点**： - 结构样式分离 - 多个页面可以复用 - 浏览器可以缓存 注意：`@import` 会阻塞加载，性能不如多个 `<lin...",
       "tags": [
         "f5f5f5",
         "id",
@@ -135,7 +135,7 @@
       "topic": "CSS",
       "wordCount": 8085,
       "lastUpdated": "2026-03-17",
-      "summary": "| 分类 | 选择器 |...",
+      "summary": "| 分类 | 选择器 | |------|--------| | 基础选择器 | 通用选择器 `*`、元素选择器、class选择器、id选择器 | | 组合选择器 | 后代 `空格`、子 `>`、兄弟 `+ ~`、并集 `,`、交集 | | 属性选择器 | `[attr]`, `[attr=value]`, `[attr^=value]`, `[attr$=value]`, `[attr*=value]` | | 伪类 | `:hover`, `:nth-child()`, `:first-child`, `:focus`... | | 伪元素 | `::before`, `::after`,...",
       "tags": [
         "333",
         "header",
@@ -160,7 +160,7 @@
       "topic": "CSS",
       "wordCount": 8616,
       "lastUpdated": "2026-03-17",
-      "summary": "每个 HTML 元素都是一个盒子。盒子由四部分组成：...",
+      "summary": "每个 HTML 元素都是一个盒子。盒子由四部分组成： - **content** - 内容区域（放文字、图片） - **padding** - 内边距（内容和边框之间） - **border** - 边框（padding 外面的边框） - **margin** - 外边距（盒子外面的空间） 图解： `box-sizing` 决定了 `width` 计算方式： width 指的是 **内容宽度**，padding 和 border 会额外增加宽度。 width 指的是 **总宽度**（content + padding + border），所以不会被 padding 和 border 撑大。 *...",
       "tags": [
         "000",
         "eee"
@@ -179,7 +179,7 @@
       "topic": "CSS",
       "wordCount": 6899,
       "lastUpdated": "2026-03-17",
-      "summary": "```css...",
+      "summary": "**最佳实践：** - 正文一般 `14px` ~ `16px` - 标题根据层级增大 - 移动端建议不要小于 `12px` **字体分类：** - `serif` - 衬线字体（有边角装饰，比如宋体、Times New Roman） - `sans-serif` - 无衬线字体（干净清爽，现代网页常用） - `monospace` - 等宽字体（每个字母宽度相同，用于代码） - `cursive` - 手写体 - `fantasy` - 装饰字体 **写法：** 写多个字体，从左往右依次 fallback： **注意：** 字体名有空格要加引号：`\"Segoe UI\"` - 400 = no...",
       "tags": [
         "ff0000",
         "007bff",
@@ -204,7 +204,7 @@
       "topic": "CSS",
       "wordCount": 5933,
       "lastUpdated": "2026-03-17",
-      "summary": "Tailwind 是一个 **功能类优先（utility-first）** 的 CSS 框架，它不提供现成的组件，而是提供大量小巧的功能类（比如 `flex`、`pt-4`、`text-center`...",
+      "summary": "Tailwind 是一个 **功能类优先（utility-first）** 的 CSS 框架，它不提供现成的组件，而是提供大量小巧的功能类（比如 `flex`、`pt-4`、`text-center`），你直接在 HTML 里组合这些类来构建页面。 和 Bootstrap 区别： - Bootstrap 给你现成组件（`btn`、`card`、`navbar`） - Tailwind 给你工具类，自己组合出任何组件 **Constraint-based styling**：用功能类约束样式，不用写自定义 CSS，大部分场景不用写 CSS，直接写类。 优点： - 不用想类名了，直接用工具类，避免...",
       "tags": [
         "123456"
       ],
@@ -223,7 +223,7 @@
       "topic": "JavaScript",
       "wordCount": 10714,
       "lastUpdated": "2026-03-17",
-      "summary": "JavaScript 是运行在浏览器上的脚本语言，让网页动起来，实现交互。...",
+      "summary": "JavaScript 是运行在浏览器上的脚本语言，让网页动起来，实现交互。 - JS = ECMAScript（语法标准） + DOM（文档对象模型） + BOM（浏览器对象模型） - 现在也可以运行在服务器端（Node.js） **特点：** - `script` 标签写在 `</body>` 前，等 DOM 加载完再执行 - 如果放在 `head` 里，需要加 `DOMContentLoaded` 监听 - `defer` 属性：异步下载，DOM 加载完再执行 - `async` 属性：异步下载，下载完立即执行 变量就是用来存东西的盒子。 | | let | const | var | |...",
       "tags": [],
       "backlinks": [
         "02-对象与函数进阶",
@@ -238,7 +238,7 @@
       "topic": "JavaScript",
       "wordCount": 8202,
       "lastUpdated": "2026-03-17",
-      "summary": "对象是键值对的集合，用来描述一个事物的多个属性。...",
+      "summary": "对象是键值对的集合，用来描述一个事物的多个属性。 this 指向谁，看**函数怎么调用**，不是看定义在哪里。 | 调用方式 | this 指向 | |----------|-----------| | 普通函数调用 | `window`（浏览器） / `global`（Node） / 严格模式 `undefined` | | 对象方法调用 | 指向该对象 | | 构造函数调用 | 指向新创建的实例 | | 箭头函数 | 继承外层作用域的 this | | call/apply/bind | 可以指定 this | 例子： 例子： 例子：求数组最大值： 例子：绑定后用： **三者区别：** -...",
       "tags": [],
       "backlinks": [
         "01-JavaScript基础",
@@ -254,7 +254,7 @@
       "topic": "JavaScript",
       "wordCount": 8306,
       "lastUpdated": "2026-03-17",
-      "summary": "DOM（Document Object Model）文档对象模型，把 HTML 文档解析成树状结构，JS 可以通过 DOM API 操作网页。...",
+      "summary": "DOM（Document Object Model）文档对象模型，把 HTML 文档解析成树状结构，JS 可以通过 DOM API 操作网页。 **说明：** - `querySelector` / `querySelectorAll` 支持所有 CSS 选择器，语法一致，好用！ - `querySelectorAll` 返回的是 `NodeList`，可以用 `forEach` 遍历 例子： 非常方便，开发中常用在标签存数据。 只读，不能用来改样式。 比直接改 `element.className` 方便多了！ 事件会从触发元素向上冒泡到父元素。 点击按钮 → 先 button → 再 p ...",
       "tags": [
         "box"
       ],
@@ -272,7 +272,7 @@
       "topic": "JavaScript",
       "wordCount": 7658,
       "lastUpdated": "2026-04-09",
-      "summary": "JavaScript 语言设计上就是**单线程**，同一时间只能做一件事。...",
+      "summary": "JavaScript 语言设计上就是**单线程**，同一时间只能做一件事。 为什么？因为设计给浏览器做交互，要是多线程，同时改 DOM 就乱了。 - 代码一步步执行，前面不执行完，后面等着 - 阻塞执行 - 不等待异步任务完成，先执行后面，任务完成了再回调 - 不阻塞 例子： 执行顺序： 1. 同步代码直接执行，进调用栈 2. 异步任务放到任务队列，等待 3. 调用栈空了，事件循环从任务队列拿过来执行 4. 一直循环 → 所以叫事件循环 任务分类： - **宏任务（macrotask）**：`setTimeout` `setInterval` `setImmediate` `I/O` `DOM...",
       "tags": [],
       "backlinks": [
         "05-Axios接口对接",
@@ -290,7 +290,7 @@
       "topic": "JavaScript",
       "wordCount": 9768,
       "lastUpdated": "2026-04-09",
-      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，用于浏览器和 Node.js。它提供了以下特点：...",
+      "summary": "Axios 是一个基于 Promise 的 HTTP 客户端，用于浏览器和 Node.js。它提供了以下特点： - 从浏览器发送 XMLHttpRequests - 从 Node.js 发送 http 请求 - 支持 Promise API - 拦截请求和响应 - 自动转换 JSON 数据 - 取消请求 - 自动转换请求和响应数据 --- - [[04-异步与AJAX]] - [[Vue/04-路由与Pinia]] - [[React/04-React路由与状态管理]]",
       "tags": [],
       "backlinks": [
         "04-异步与AJAX",
@@ -305,7 +305,7 @@
       "topic": "TypeScript",
       "wordCount": 5603,
       "lastUpdated": "2026-03-17",
-      "summary": "TypeScript 是 JavaScript 的超集，给 JS 添加了类型系统，编译后转成 JS 运行。...",
+      "summary": "TypeScript 是 JavaScript 的超集，给 JS 添加了类型系统，编译后转成 JS 运行。 优点： - 类型检查，提前发现错误 - 更好的 IDE 提示，重构更安全 - 代码就是文档，可读性更好 **默认情况下 `null` 和 `undefined` 是所有类型的子类型，可以赋值给任何类型。** 如果开启 `--strictNullChecks`，就只能赋值给 `null` 和 `undefined` 自己了，更安全。 元组就是固定长度、每个元素类型可以不同的数组： 表示没有返回值的函数： 任意类型，绕过类型检查，和 JS 一样： **不推荐随便用 any，不然失去了类型检查...",
       "tags": [],
       "backlinks": [
         "02-接口与类型别名",
@@ -322,7 +322,7 @@
       "topic": "TypeScript",
       "wordCount": 5243,
       "lastUpdated": "2026-03-17",
-      "summary": "接口用来**描述对象的形状**，告诉 TS 这个对象有哪些属性、类型是什么。...",
+      "summary": "接口用来**描述对象的形状**，告诉 TS 这个对象有哪些属性、类型是什么。 属性不一定存在，加 `?`： 初始化之后不能改： 允许加任意其他属性： 语法： **注意：** 如果定义了任意属性，那确定属性、可选属性的类型必须是它的子类型： 接口可以描述函数： 接口可以继承其他接口，继承过来所有属性： 多继承： 同名接口会自动合并： 这个特性用来给第三方库加类型，非常好用。 类型别名给任意类型起个名字： **type 可以给任何类型起别名，不仅仅是对象。** 把多个类型合并成一个： | 点 | interface | type | |----|-----------|------| | 描述对象...",
       "tags": [],
       "backlinks": [
         "01-TypeScript基础",
@@ -338,7 +338,7 @@
       "topic": "TypeScript",
       "wordCount": 5520,
       "lastUpdated": "2026-03-17",
-      "summary": "```typescript...",
+      "summary": "**可选参数必须放在最后。** 同一个函数可以接受不同参数，返回不同类型，给多个函数签名： 重载只有 TS 用，编译后还是一个函数，只是给 TS 看类型。 泛型就是**让类型也能接受参数**，同一个函数可以支持多种类型，不写 any，又能保持类型安全。 例子：创建一个函数，输入什么类型，返回什么类型。 不用泛型： `T` 就是类型参数，调用的时候会自动推断： 泛型类： 限制 T 必须满足什么条件，必须有哪些属性： 非常实用，类型检查帮你检查键名对不对。 - 函数/组件会处理多种类型的数据 - 保持类型安全，不用 any - 减少重复代码，一个函数支持多种类型 **常用场景：** - 工具函数，...",
       "tags": [],
       "backlinks": [
         "01-TypeScript基础",
@@ -354,7 +354,7 @@
       "topic": "TypeScript",
       "wordCount": 5367,
       "lastUpdated": "2026-03-17",
-      "summary": "一个值可以是多种类型中的一种：...",
+      "summary": "一个值可以是多种类型中的一种： 把多个类型合并成一个，同时拥有所有类型的属性： 如果有冲突，比如两个接口同名属性类型不同，那结果就是 `never`。 帮 TS 确定具体是什么类型： `pet is Fish` 就是类型守卫，告诉 TS 如果返回 true，类型就是 Fish。 联合类型加个共同字面量标签，TS 可以很好收窄范围： 如果加 `default` 最好加个 exhaustive check： 这样如果漏了 case，编译就报错。 基于旧类型创建新类型，批量转换： TS 4.1+ 支持 `as` 重新映射键： 非常灵活！ T 是 U 子类型返回 X，否则返回 Y。 联合类型条件，会分...",
       "tags": [],
       "backlinks": [
         "01-TypeScript基础",
@@ -370,7 +370,7 @@
       "topic": "TypeScript",
       "wordCount": 8366,
       "lastUpdated": "2026-03-17",
-      "summary": "这篇告诉你**什么场景用什么类型**，看完就知道什么时候该写什么了。...",
+      "summary": "这篇告诉你**什么场景用什么类型**，看完就知道什么时候该写什么了。 - **默认用 `const`** - 变量不会改就用 const - 需要改才用 `let` - 不要用 `var`，作用域坑多 ✅ **推荐：能推断就让 TS 推断，不用写** ❌ **什么时候必须写：** 1. **变量声明了没赋值，后面才赋值** 2. **函数参数、返回值必须写（虽然也能推断，但建议写上更清晰** 3. **类型不能准确推断，你要明确告诉它** - **普通对象推荐 interface**，可以扩展合并： - 需要联合/元组/工具类型用 type： 这个属性不一定有就加： 你也不知道会有啥额外属性，...",
       "tags": [],
       "backlinks": [
         "01-TypeScript基础",
@@ -386,7 +386,7 @@
       "topic": "Vue",
       "wordCount": 7072,
       "lastUpdated": "2026-04-09",
-      "summary": "Vue (发音 /vjuː/，类似 view) 是一套用于构建用户界面的**渐进式框架**。...",
+      "summary": "Vue (发音 /vjuː/，类似 view) 是一套用于构建用户界面的**渐进式框架**。 - 易学易用 - 性能出色，体积小巧 - 生态丰富 - 支持组合式 API（Vue3 推荐） Vite 是下一代前端构建工具，开发体验更好： 一个 `.vue` 单文件组件（SFC）结构： - `<template>`：模板 - `<script>`：逻辑 - `<style>`：样式 - `scoped`：样式只作用当前组件，不污染全局 Vue3 推荐使用 `<script setup>` 语法糖，更简洁。 指令是以 `v-` 开头的特殊属性： | 指令 | 作用 | | --------- | -...",
       "tags": [
         "app"
       ],
@@ -406,7 +406,7 @@
       "topic": "Vue",
       "wordCount": 5885,
       "lastUpdated": "2026-03-19",
-      "summary": "当数据变化时，使用它的地方自动更新（视图自动更新）。...",
+      "summary": "当数据变化时，使用它的地方自动更新（视图自动更新）。 Vue2 用 `Object.defineProperty`，Vue3 用 ES6 `Proxy`，性能更好，能监听新增属性、删除属性，数组索引变化也能监听。 定义基本类型响应式数据，也可以定义对象。 **什么时候用 ref？** - 基本类型（number string boolean）必须用 ref - 对象也可以用，推荐简单数据用 ref，复杂对象用 reactive 定义对象/数组的响应式： **reactive 局限性：** - 不能给基本类型用 - 不能直接解构赋值，会丢失响应性： 解决：用 toRefs 包一下： **toRe...",
       "tags": [],
       "backlinks": [
         "01-Vue3基础",
@@ -423,7 +423,7 @@
       "topic": "Vue",
       "wordCount": 8185,
       "lastUpdated": "2026-03-17",
-      "summary": "在入口注册，所有组件都能用：...",
+      "summary": "在入口注册，所有组件都能用： 缺点：没用的组件打包不会tree-shaking，会打进去。 在使用的组件里面引入注册： 优点：用才引入，打包能tree-shake，更好。 父组件给子组件传数据用 props。 用 `defineProps` 声明： **注意：** - `defineProps` 不需要导入，`<script setup>` 里自动可用 - props 是只读的，子组件不能修改父组件传过来的 props，要改让父组件改 **默认值写法：** - 基本类型直接写默认值 - 对象/数组默认值要函数返回： 子组件触发事件给父组件，父组件监听。 Vue3 支持在组件上用 v-model...",
       "tags": [
         "app",
         "header",
@@ -444,7 +444,7 @@
       "topic": "Vue",
       "wordCount": 7801,
       "lastUpdated": "2026-03-17",
-      "summary": "Vue Router 是 Vue 官方路由管理器，用来做 SPA（单页应用）页面切换。...",
+      "summary": "Vue Router 是 Vue 官方路由管理器，用来做 SPA（单页应用）页面切换。 入口引入： App.vue 放出口： **声明式导航（模板里用）：** **编程式导航（JS 里导航）：** **动态路由参数：** 如果路由配置了 `props: true`，可以直接用 props 拿： 有多层出口： User.vue 里要有 `<router-view>`： 路由变化前后拦截，比如做权限验证： **全局前置守卫：** **组件内守卫：** Pinia 是 Vue 官方推荐的状态管理库，代替 Vuex，更简单更好用。 **选项式写法也支持（类似 Vuex）：** 推荐 setup 写法，...",
       "tags": [
         "app"
       ],
@@ -461,7 +461,7 @@
       "topic": "Vue",
       "wordCount": 2500,
       "lastUpdated": "2026-03-17",
-      "summary": "- 基于 Options API，按选项分割代码（data、methods、computed...）...",
+      "summary": "- 基于 Options API，按选项分割代码（data、methods、computed...） - 用 Object.defineProperty 实现响应式 - 所有逻辑混合在一起，大组件难维护，复用不方便 - 推荐 Composition API，按逻辑分割代码，相同逻辑放一起 - 用 Proxy 实现响应式，解决了 Vue2 响应式问题 - 更好的 TypeScript 支持 - 更小的包体积，更快的性能 **问题：** - 不能监听新增属性、删除属性，需要用 `$set` `$delete` - 不能监听数组索引变化，数组修改索引不会触发更新 - 递归遍历所有属性，一次性遍历，性...",
       "tags": [
         "app"
       ],
@@ -477,7 +477,7 @@
       "topic": "Vue",
       "wordCount": 4066,
       "lastUpdated": "2026-03-17",
-      "summary": "自定义指令用来对 DOM 进行底层操作，封装一些复用的 DOM 操作逻辑。...",
+      "summary": "自定义指令用来对 DOM 进行底层操作，封装一些复用的 DOM 操作逻辑。 比如：自动聚焦、按钮权限控制、元素拖拽、点击外部关闭... Vue3 指令生命周期钩子： 参数说明： - `el`：指令绑定的 DOM 元素，可以直接操作 DOM - `binding`：包含指令信息，`binding.value` 是传过来的值，`binding.arg` 是参数 - `vnode`：Vue 编译生成的虚拟节点 使用： 使用： 点击元素外面，触发回调： 使用： 根据权限显示/隐藏： 使用： 使用： 如果 created 和 updated 做一样的事，可以简写： - 能不用指令就不用指令，能用组件实现...",
       "tags": [],
       "backlinks": [
         "01-Vue3基础",
@@ -492,7 +492,7 @@
       "topic": "Vue",
       "wordCount": 4653,
       "lastUpdated": "2026-03-17",
-      "summary": "Vue 提供了 `<Transition>` 和 `<TransitionGroup>` 组件帮你做过渡动画。...",
+      "summary": "Vue 提供了 `<Transition>` 和 `<TransitionGroup>` 组件帮你做过渡动画。 | 类名 | 说明 | |------|------| | `xxx-enter-from` | 进入开始，动画开始前 | | `xxx-enter-active` | 进入过程，整个进入阶段都有 | | `xxx-enter-to` | 进入结束 | | `xxx-leave-from` | 离开开始 | | `xxx-leave-active` | 离开过程 | | `xxx-leave-to` | 离开结束 | 命名：`name=\"fade\"` → 类名 `fade-xxx` ...",
       "tags": [],
       "backlinks": [
         "01-Vue3基础",
@@ -508,7 +508,7 @@
       "topic": "Vue",
       "wordCount": 4627,
       "lastUpdated": "2026-03-17",
-      "summary": "```javascript...",
+      "summary": "这样每个页面打包成独立 chunk，访问的时候才加载，首屏更快。 不要把大的第三方库打包进去，用 CDN： index.html： 利用浏览器缓存，首屏加载更快。 nginx 开启压缩，传输体积更小： vite 可以用插件生成 `.gz` 文件： 开发需要，生产不需要，减小打包体积： - v-if：不满足条件根本不渲染 DOM，切换开销大 → 适合很少切换 - v-show：始终渲染，只是 display none，切换开销小 → 适合频繁切换 Vue 复用 DOM 靠 key diff，不加 key 可能出错，性能更差 如果不需要每次重新渲染，缓存起来： include/exclude 缓存...",
       "tags": [
         "fallback"
       ],
@@ -528,7 +528,7 @@
       "topic": "Vue",
       "wordCount": 6549,
       "lastUpdated": "2026-03-17",
-      "summary": "组合式函数就是把可复用的逻辑抽出来，useXxx 命名，在组件里直接用。...",
+      "summary": "组合式函数就是把可复用的逻辑抽出来，useXxx 命名，在组件里直接用。 使用： 使用： 使用： 改了自动存，刷新页面还是那个值，完美！ 使用： 太简洁了！ 使用： 常用在弹框、下拉菜单，点击外面关闭： 使用： 使用： 使用： 使用： 自定义 hook 好处： - 逻辑抽离，复用方便，多个组件用直接导入就行 - 每个 hook 只做一件事，干净整洁 - 和组件逻辑分离，好测试 - 社区已经有 `vueuse` 这个库，现成的各种 hooks，项目直接用： 项目开发，自己业务逻辑抽成 hook，通用的直接用 vueuse，完美。 --- - [[01-Vue3基础]] - [[02-响应式系统]...",
       "tags": [],
       "backlinks": [
         "01-Vue3基础",
@@ -546,7 +546,7 @@
       "topic": "Vue",
       "wordCount": 9705,
       "lastUpdated": "2026-03-17",
-      "summary": "这里收集开发中常用的交互动画效果，直接拿过去就能用。...",
+      "summary": "这里收集开发中常用的交互动画效果，直接拿过去就能用。 连续触发，停止 N 毫秒后才执行，适合搜索输入、窗口 resize。 使用： 规定时间内只执行一次，适合 scroll、mousemove。 使用： 这个效果常用于首页英雄区，很炫酷，用户移动鼠标背景轻微倾斜。 效果：鼠标往哪动，背景往哪倾斜，轻微动，很有立体感。 导航滚动到顶部吸住，常见于博客文档网站。 原生已经支持，直接用： 如果需要自定义懒加载（先占位，加载完淡入）： useClickOutside hook 在「常用组合式函数」那篇有，直接用。 点击按钮扩散波纹动画，Material Design 常见效果： 使用 CSS vari...",
       "tags": [
         "007bff",
         "0056b3",
@@ -567,7 +567,7 @@
       "topic": "Vue",
       "wordCount": 1045,
       "lastUpdated": "2026-04-09",
-      "summary": "本文根据原始资料整理，介绍 Vue3 性能优化的最佳实践。...",
+      "summary": "本文根据原始资料整理，介绍 Vue3 性能优化的最佳实践。 推荐使用 `computed` 而不是直接在模板中调用函数。 使用 `vue-virtual-scroller` 处理大数据列表： - 使用 `defineOptions` 配置 - v-for 中使用唯一 ID 作为 key 1. 合理使用懒加载 2. 优化响应式系统 3. 避免不必要的重新渲染 4. 使用虚拟滚动处理大数据 5. 利用编译时优化 - [[08-Vue性能优化]] - [[03-组件与组合式API]] - [[01-React基础]] - [[01-ViteWebpack基础]] --- *本笔记由 LLM 从原始资...",
       "tags": [],
       "backlinks": [
         "08-Vue性能优化",
@@ -583,7 +583,7 @@
       "topic": "React",
       "wordCount": 4586,
       "lastUpdated": "2026-04-09",
-      "summary": "React 是一个用于构建用户界面的 **JavaScript 库**，由 Facebook 开发维护。...",
+      "summary": "React 是一个用于构建用户界面的 **JavaScript 库**，由 Facebook 开发维护。 - **组件化**：把页面拆成多个组件，复用、维护方便 - **声明式**：你只需要说想要什么效果，DOM 怎么更你不用管 - **虚拟 DOM**：React 在内存里维护一棵 DOM 树，diff 算法最小化 DOM 操作，性能好 - **一次学习，随处编写**：可以写 web、React Native 写 App、SSR、静态站点生成 JSX 是 JavaScript 的语法扩展，在 JS 里面写 HTML 结构： **JSX 本质**：不是模板，最终编译成 `React.creat...",
       "tags": [],
       "backlinks": [
         "02-ReactHooks",
@@ -600,7 +600,7 @@
       "topic": "React",
       "wordCount": 4836,
       "lastUpdated": "2026-03-17",
-      "summary": "Hooks 是 React 16.8 新增，让你在函数组件里用状态和其他 React 特性。...",
+      "summary": "Hooks 是 React 16.8 新增，让你在函数组件里用状态和其他 React 特性。 保存组件状态，状态改变自动重新渲染： **注意：** 如果你修改对象/数组，需要新对象才能触发更新，不能直接改旧对象： 处理副作用：数据获取、订阅、手动修改 DOM... 依赖数组规则： - 空数组 `[]` → 只执行一次（相当于 componentDidMount） - 不写数组 → 每次渲染都执行 - 写上依赖 → 依赖变了才执行 获取上下文数据，跨组件传值不用一层层传 props： 复杂状态逻辑用 useReducer，类似 redux： 适合状态逻辑复杂，包含多个子值，或者下一个 state...",
       "tags": [],
       "backlinks": [
         "01-React基础",
@@ -617,7 +617,7 @@
       "topic": "React",
       "wordCount": 3490,
       "lastUpdated": "2026-03-17",
-      "summary": "React 组件之间通信有多种方式，根据场景选：...",
+      "summary": "React 组件之间通信有多种方式，根据场景选： 兄 A → 父 → 兄 B，父做中转。 用 Redux / Zustand / Jotai / Recoil，兄弟都从状态管理拿数据，改状态一起更新。 优点：不用一层层传 props，深层组件直接拿，方便。 缺点：数据变了，所有用到 context 的组件都会重新渲染，优化不好性能有问题。 Zustand 现在最受欢迎，轻量简单： 父组件拿到子组件实例调用方法： 自己写简单： 使用： 现在项目不太推荐，有 context 或者 zustand 更干净。 | 场景 | 方式 | |------|------| | 父 → 子 | props | ...",
       "tags": [],
       "backlinks": [
         "01-React基础",
@@ -634,7 +634,7 @@
       "topic": "React",
       "wordCount": 5178,
       "lastUpdated": "2026-03-17",
-      "summary": "React 官方路由库，用于 SPA 单页应用路由。...",
+      "summary": "React 官方路由库，用于 SPA 单页应用路由。 Zustand 是现在最受欢迎的 React 状态管理，轻量、简单、不用写很多模板代码。 `devtools` 中间件支持 Redux DevTools 调试，`persist` 自动持久化到 localStorage，非常方便。 - 代码量少很多，没有大量样板代码（actions/reducers/action-types 一堆文件） - 默认就是局部更新，只有你订阅的 state 变了才重新渲染，性能好 - 不用 combine 一堆 reducer，简单直接 - 类型推断友好 **推荐现在新项目用 Zustand 代替 Redux**...",
       "tags": [],
       "backlinks": [
         "01-React基础",
@@ -651,7 +651,7 @@
       "topic": "React",
       "wordCount": 3580,
       "lastUpdated": "2026-03-17",
-      "summary": "如果组件 props 没变，跳过重新渲染：...",
+      "summary": "如果组件 props 没变，跳过重新渲染： 默认浅比较 props，也可以自定义比较函数： 不要乱用，只有计算真的很慢才用，不然反而浪费。 - 把大组件拆成小组件，只更新变化的部分 - 把不变部分抽出去，变化了不会影响不变部分 如果几千上万条数据，不要全部渲染，只渲染可见区域： 推荐用库： - [`react-window`](https://github.com/bvaughn/react-window) → 轻量推荐 - [`react-virtualized`](https://github.com/bvaughn/react-virtualized) → 功能全，更大 函数同理： Co...",
       "tags": [],
       "backlinks": [
         "01-React基础",
@@ -668,7 +668,7 @@
       "topic": "HTTP",
       "wordCount": 3822,
       "lastUpdated": "2026-03-17",
-      "summary": "HTTP（HyperText Transfer Protocol，超文本传输协议）是用于在网络上传输超文本（HTML、图片、JSON...）的协议，浏览器和服务器之间通信用它。...",
+      "summary": "HTTP（HyperText Transfer Protocol，超文本传输协议）是用于在网络上传输超文本（HTML、图片、JSON...）的协议，浏览器和服务器之间通信用它。 - `scheme` - 协议：`http` / `https` - `host` - 域名/IP - `port` - 端口，http 默认 80，https 默认 443 - `path` - 路径 - `query` - 查询参数 - `fragment` - 锚点，跳转到页面某个位置 常见方法： | 方法 | 说明 | |------|------| | `GET` | 获取资源，读，请求参数放 URL | |...",
       "tags": [
         "fragment"
       ],
@@ -685,7 +685,7 @@
       "topic": "浏览器",
       "wordCount": 2690,
       "lastUpdated": "2026-03-17",
-      "summary": "- **浏览器主进程**：控制界面，地址栏、书签、前进后退，管理其他进程...",
+      "summary": "- **浏览器主进程**：控制界面，地址栏、书签、前进后退，管理其他进程 - **GPU进程**：UI 渲染，界面绘制 - **网络进程**：网络请求，资源加载 - **渲染进程**：每个标签页一个，运行 JS、CSS、HTML，页面渲染 - **插件进程**：每个插件一个进程 好处：一个页面崩溃不影响其他页面，沙箱隔离更安全。 1. **DNS 解析**：域名 → IP 地址 - 浏览器缓存 → 操作系统缓存 → 路由器缓存 → ISP DNS 缓存 → 根域名服务器迭代查询 2. **TCP 连接**：三次握手建立连接 3. **发送 HTTP 请求**：请求行 + 请求头 + 空行 + ...",
       "tags": [],
       "backlinks": [
         "01-HTTP基础",
@@ -700,7 +700,7 @@
       "topic": "浏览器",
       "wordCount": 2317,
       "lastUpdated": "2026-04-09",
-      "summary": "现代浏览器采用多进程架构：...",
+      "summary": "现代浏览器采用多进程架构： - 每个标签页一个渲染进程（沙箱安全） - 内部是多线程协作 → DOM树 - ` - `div.container` - `p` - Text: \"Hello World\" → CSSOM树 只包含可见元素，隐藏的`display: none`不会出现在渲染树上。 计算每个节点的尺寸和位置，生成**布局树（Layout Tree）**。 将每个节点绘制成图层（Layer），生成**绘制列表（Paint Record）**。 将图层合成为页面，发送给GPU显示。 1. **减少HTML/CSS体积**：压缩、删除注释 2. **优化CSS选择器**：避免复杂选择器 ...",
       "tags": [
         "document"
       ],
@@ -713,7 +713,7 @@
       "topic": "安全",
       "wordCount": 2529,
       "lastUpdated": "2026-04-09",
-      "summary": "攻击者往网页注入恶意脚本，用户访问页面时恶意脚本执行，偷取信息。...",
+      "summary": "攻击者往网页注入恶意脚本，用户访问页面时恶意脚本执行，偷取信息。 **1. 存储型 XSS** - 恶意脚本存在服务器数据库（比如评论区、用户昵称） - 其他用户访问就会执行 - 危害最大，持久化 **2. 反射型 XSS** - 恶意脚本在 URL 参数里，后端把参数拼进页面返回 - 需要诱导用户点击链接才触发 - 非持久化 **3. DOM 型 XSS** - 完全前端渲染，攻击不经过后端 - 通过修改页面 DOM 执行脚本 - **输入过滤**：对用户输入进行转义，`<` 转成 `&lt;`，`>` 转成 `&gt;` - **CSP 内容安全策略**：只允许加载指定域名脚本，禁止内联 ...",
       "tags": [],
       "backlinks": [
         "01-HTTP基础",
@@ -727,7 +727,7 @@
       "topic": "工程化",
       "wordCount": 3811,
       "lastUpdated": "2026-04-09",
-      "summary": "把开发写的源代码转换成浏览器能跑的代码：...",
+      "summary": "把开发写的源代码转换成浏览器能跑的代码： - 代码转换（TypeScript → JavaScript，SCSS → CSS） - 文件合并打包 - 代码压缩 - 代码分割 - 开发服务器，热更新 - 编译区分开发环境生产环境 - 基于 ESBuild 预构建，快很多 - 原生 ESM 开发，不用打包就能跑，冷启动快 - 按需编译，你打开页面才编译 - 热更新快，改了只更新改的模块 代码中使用： 必须以 `VITE_` 开头，才能被识别。 - **entry** 入口：从哪个文件开始打包 - **output** 输出：打包完放哪，叫什么名字 - **loader** 加载器：webpack ...",
       "tags": [],
       "backlinks": [
         "08-Vue性能优化",
@@ -748,7 +748,7 @@
       "topic": "工程化",
       "wordCount": 2160,
       "lastUpdated": "2026-03-18",
-      "summary": "- Node.js 默认包管理器...",
+      "summary": "- Node.js 默认包管理器 - 嵌套 node_modules，可能重复依赖 - `package-lock.json` 锁版本 - Facebook 出的，比 npm 快 - 并行安装，离线缓存 - `yarn.lock` 锁版本 - Workspace 原生支持 Monorepo - **推荐现在用** - 硬链接 + 符号链接，不重复存储相同版本 - node_modules 扁平化，幽灵依赖问题解决 - 速度比 npm/yarn 快 - `pnpm-lock.yaml` 锁版本 - 天生支持 Workspace/Monorepo 版本格式：`主版本号.次版本号.修订号` - **...",
       "tags": [],
       "backlinks": [
         "03-CICD",
@@ -762,7 +762,7 @@
       "topic": "工程化",
       "wordCount": 2658,
       "lastUpdated": "2026-03-18",
-      "summary": "- **CI (Continuous Integration) 持续集成**：开发者每次推送代码都自动进行构建、测试，早点发现问题...",
+      "summary": "- **CI (Continuous Integration) 持续集成**：开发者每次推送代码都自动进行构建、测试，早点发现问题 - **CD (Continuous Delivery/Deployment) 持续交付/部署**：代码合并到主分支后，自动构建测试部署到生产环境 - **Workflow**：工作流，一个 `.yml` 文件就是一个 workflow，放在 `.github/workflows/` - **Event**：触发事件，比如 push、pull_request、定时任务 - **Job**：任务，一个或多个 job 并行/顺序执行 - **Step**：步骤，每个 ...",
       "tags": [],
       "backlinks": [
         "01-ViteWebpack基础",
@@ -776,7 +776,7 @@
       "topic": "工程化",
       "wordCount": 3402,
       "lastUpdated": "2026-04-09",
-      "summary": "- 把应用和依赖打包成一个镜像，任何机器跑起来都一样...",
+      "summary": "- 把应用和依赖打包成一个镜像，任何机器跑起来都一样 - 解决\"我本机跑没问题啊，为什么线上错了\"问题 - 容器和宿主机隔离，环境干净 多个容器一起管理，比如前端 + 后端 + 数据库一起起： - **Let's Encrypt** 免费证书，90 天，自动续期 - 工具：`certbot` 自动申请续期 部署常用： - 静态资源放到离用户近的节点，用户打开更快 - 源站在国内，海外用户也快 - 分摊源站压力，大流量不怕 - 把 `https://example.com/js/app.js` 改成 `https://cdn.example.com/js/app.js` - DNS 解析到 CD...",
       "tags": [],
       "backlinks": [
         "03-CICD",
@@ -793,7 +793,7 @@
       "topic": "工程化",
       "wordCount": 2892,
       "lastUpdated": "2026-03-18",
-      "summary": "ESLint 检查代码语法错误和风格问题。...",
+      "summary": "ESLint 检查代码语法错误和风格问题。 设置保存自动修复： 统一代码风格，所有人代码长一样。 | 配置 | 含义 | |------|------| | `semi: true` | 语句末尾加分号 | | `singleQuote: true` | 用单引号不用双引号 | | `tabWidth: 2` | 缩进 2 空格 | | `printWidth: 80` | 一行最长 80 字符，超过换行 | | `trailingComma: es5` | 对象数组最后一项也加逗号 | - **ESLint**：找语法错误，潜在 bug，代码质量问题 - **Prettier**：只管格式（...",
       "tags": [
         "123"
       ],
@@ -809,7 +809,7 @@
       "topic": "工程化",
       "wordCount": 2556,
       "lastUpdated": "2026-04-09",
-      "summary": "**Monorepo** = 一个仓库放多个包/项目，这些包可以互相依赖。...",
+      "summary": "**Monorepo** = 一个仓库放多个包/项目，这些包可以互相依赖。 对比 **Multirepo** = 每个包一个仓库。 - 代码共享方便，一个包改了另一个直接用 - 跨包重构方便，一次性改完 - 统一的工具配置，不用每个仓库配一遍 - 一次提交能改多个包，方便追踪 - 公司内部多个项目共享组件库/工具函数 - 大型项目拆成多个包解耦 - 开源库多个包一起维护 | 工具 | 特点 | |------|------| | **pnpm Workspace** | 原生支持，简单够用 | | **Nx** | 强大，支持缓存、任务依赖、受影响包构建测试，中大型项目推荐 | | **Tur...",
       "tags": [],
       "backlinks": [
         "02-依赖管理"
@@ -822,7 +822,7 @@
       "topic": "Git",
       "wordCount": 3233,
       "lastUpdated": "2026-04-09",
-      "summary": "```bash...",
+      "summary": "**rebase vs merge**： - merge 保留完整提交历史，不会改变原有提交 - rebase 把提交线性排列，历史更干净 - 原则：本地分支用 rebase，公共分支不要用 rebase 场景：切分支前改了一半不想提交，先贮藏起来。 - `main` / `master` → 主分支，存放生产代码 - `develop` → 开发分支，集成所有功能 - `feature/xxx` → 功能分支，开发新功能 - `hotfix/xxx` → 修复线上bug type 类型： - `feat` 新功能 - `fix` 修复bug - `docs` 文档修改 - `style` 格...",
       "tags": [],
       "backlinks": [
         "01-ViteWebpack基础",
@@ -836,7 +836,7 @@
       "topic": "Docker",
       "wordCount": 3703,
       "lastUpdated": "2026-04-09",
-      "summary": "- 容器化技术，把应用和依赖打包到一个可移植的容器里，一次打包到处运行...",
+      "summary": "- 容器化技术，把应用和依赖打包到一个可移植的容器里，一次打包到处运行 - 解决\"我本地跑的好好的，你那怎么不行\"的问题 - 比虚拟机轻量，启动快，资源占用少 **镜像 vs 容器：** - 镜像：只读模板，相当于类，比如 nginx 镜像、node 镜像 - 容器：镜像运行出来的实例，每个容器互相隔离 - **镜像 Image**：应用模板，只读，包含运行环境和代码 - **容器 Container**：镜像运行实例，可读写，每个容器隔离 - **仓库 Registry**：存放镜像的地方，Docker Hub 是公共仓库 - **Dockerfile**：文本文件，定义怎么构建镜像 - *...",
       "tags": [],
       "backlinks": [
         "规划进度",
@@ -850,7 +850,7 @@
       "topic": "Linux",
       "wordCount": 4258,
       "lastUpdated": "2026-04-09",
-      "summary": "日常开发部署、排查问题常用命令，整理前端开发常用的，够用就行。...",
+      "summary": "日常开发部署、排查问题常用命令，整理前端开发常用的，够用就行。 --- --- --- --- --- --- --- --- --- --- 让命令在后台运行，关闭ssh也不中断： --- --- --- --- --- --- 1. **网站打不开排查：** 2. **服务器卡：** 3. **文件找不到：** --- --- 前端开发部署项目记住这些基本够用： - 文件操作，看日志 - 进程端口排查 - 权限，后台运行 - git/docker/nginx 常用操作 - 简单问题排查 --- - ../Git/[[01-Git常用]] - ../Docker/[[01-Docker基础]...",
       "tags": [],
       "backlinks": [
         "01-Git常用",
@@ -865,7 +865,7 @@
       "topic": "Linux",
       "wordCount": 3789,
       "lastUpdated": "2026-04-07",
-      "summary": "WSL 是 Windows 下的 Linux 子系统，可以让你在 Windows 上直接运行 Linux 环境，无需虚拟机。本文介绍两种安装方法。...",
+      "summary": "WSL 是 Windows 下的 Linux 子系统，可以让你在 Windows 上直接运行 Linux 环境，无需虚拟机。本文介绍两种安装方法。 --- 以**管理员身份**运行 PowerShell： - 按 `Win + X`，选择 \"Windows PowerShell (管理员)\" 或 \"终端(管理员)\" 这个命令会： - 启用所需的 WSL 功能 - 下载并安装 Ubuntu 默认发行版 - 设置 WSL 2 作为默认版本 安装完成后，重启计算机。重启后，Ubuntu 会自动启动，要求你创建用户名和密码。 --- 在管理员 PowerShell 中运行： **重启计算机**使更改生...",
       "tags": [],
       "backlinks": []
     },
@@ -876,7 +876,7 @@
       "topic": "算法",
       "wordCount": 8338,
       "lastUpdated": "2026-03-17",
-      "summary": "前端面试常考算法，这里整理常见基础类型。...",
+      "summary": "前端面试常考算法，这里整理常见基础类型。 - 连续存储，随机访问 O(1)，插入删除 O(n) - JS：`Array` - 非连续存储，每个节点存 value + next 指针 - 插入删除 O(1)，查找 O(n) - 分类：单链表、双向链表、循环链表 - 后进先出 LIFO - 用数组模拟：`push()` 进栈，`pop()` 出栈 - 场景：括号匹配、函数调用栈、回文判断、深度优先搜索 - 先进先出 FIFO - 场景：广度优先搜索、任务排队 - 每个节点最多两个子节点 - 遍历方式： - 前序：根 → 左 → 右 - 中序：左 → 根 → 右 - 后序：左 → 右 → 根 - 层...",
       "tags": [],
       "backlinks": [
         "02-对象与函数进阶",
@@ -891,7 +891,7 @@
       "topic": "设计模式",
       "wordCount": 5208,
       "lastUpdated": "2026-03-17",
-      "summary": "设计模式是前人总结的可复用的代码设计经验，不用死记，理解常用场景会用就好。...",
+      "summary": "设计模式是前人总结的可复用的代码设计经验，不用死记，理解常用场景会用就好。 - **创建型**：对象创建相关，单例、工厂、原型 - **结构型**：类/对象组合，适配器、装饰器、代理 - **行为型**：对象之间交互，观察者、策略、命令、迭代器 **定义**：保证一个类只有一个实例，提供全局访问点。 **场景**：全局弹窗、全局状态管理、登录框、购物车、axios 请求实例。 **JS 实现**： --- **定义**：定义一个创建对象的接口，让子类决定实例化哪个类。 **场景**：根据不同类型创建不同对象，统一管理创建逻辑。 **例子**： --- **定义**：定义对象间一对多依赖，一个对...",
       "tags": [],
       "backlinks": [
         "02-响应式系统",
@@ -905,7 +905,7 @@
       "topic": "移动端",
       "wordCount": 3735,
       "lastUpdated": "2026-04-09",
-      "summary": "移动端屏幕比 PC 小，早期为了在小屏幕显示 PC 端网站，浏览器把页面缩放到视口里，用户缩放看。现在做移动端适配需要设置 viewport。...",
+      "summary": "移动端屏幕比 PC 小，早期为了在小屏幕显示 PC 端网站，浏览器把页面缩放到视口里，用户缩放看。现在做移动端适配需要设置 viewport。 参数： - `width=device-width`：视口宽度等于设备宽度 - `initial-scale=1.0`：初始缩放 1 倍，不缩放 - `maximum-scale=1.0`：最大缩放 1 倍 - `user-scalable=no`：禁止用户缩放（一般不需要禁，可访问性不好） - 宽度用百分比不用固定 px - 配合 `min-width` `max-width` 限制范围 - 简单但大屏小屏比例不对，老网站用的多 现在常用，弹性分配空...",
       "tags": [
         "000"
       ],
@@ -922,7 +922,7 @@
       "topic": "微前端",
       "wordCount": 4454,
       "lastUpdated": "2026-03-17",
-      "summary": "- 把一个大型前端应用拆分成多个独立的小型应用，每个可以独立开发、独立部署、独立运行...",
+      "summary": "- 把一个大型前端应用拆分成多个独立的小型应用，每个可以独立开发、独立部署、独立运行 - 后端微服务的前端对应，适合大型项目多个团队协作开发 - **技术栈无关**：每个子应用可以用不同框架（Vue/React/Angular都可以） - **独立开发独立部署**：每个团队负责自己的，部署不影响别人 - **更快构建速度**：每个应用小，构建快 - **增量升级**：老项目慢慢拆，不用一次性全部重写 - **独立运行**：挂了一个不影响整体，容错更好 - **架构复杂**：要解决应用加载、样式隔离、JS隔离、通信这些问题 - **部署依赖**：需要主应用做基座调度 - **调试复杂度增加**：...",
       "tags": [
         "container",
         "app"
@@ -940,7 +940,7 @@
       "topic": "项目相关文档",
       "wordCount": 12376,
       "lastUpdated": "2026-03-30",
-      "summary": "> 💡 **一句话说明**：KPI关键绩效指标，说白了就是**\"把每个人做了多少事、做得好不好，用清晰标准说清楚\"**，避免\"干多干少一个样，干好干坏一个样\"，让真正努力的同学得到应有的认可和机会。...",
+      "summary": "> 💡 **一句话说明**：KPI关键绩效指标，说白了就是**\"把每个人做了多少事、做得好不好，用清晰标准说清楚\"**，避免\"干多干少一个样，干好干坏一个样\"，让真正努力的同学得到应有的认可和机会。 - [一、KPI设计原则]( - [二、KPI体系架构]( - [三、不同角色KPI指标]( - [四、评分标准]( - [五、实施流程]( - [六、结果应用]( - [七、激励机制]( - [八、落地实现步骤]( - [九、常见问题与规避]( - [十、KPI模板]( - [附录：工具推荐]( - [学生团队常见问题Q&A]( - [总结]( --- | 原则 | 说明 | | ------...",
       "tags": [],
       "backlinks": []
     },
@@ -951,7 +951,7 @@
       "topic": "项目相关文档",
       "wordCount": 923,
       "lastUpdated": "2026-03-19",
-      "summary": "项目团队管理制度...",
+      "summary": "项目团队管理制度 一、团队组织结构 团队采用三级结构： 项目负责人 ├ 技术负责人 │ ├ 开发成员 │ └ 技术学习成员 └ 运营负责人 ├ 推广成员 └ 内容运营成员 职责划分： 项目负责人：负责项目整体规划、任务分配、团队管理与决策方向。 技术负责人：负责技术架构、开发任务安排、技术问题解决。 运营负责人：负责用户增长、社区内容与校园推广。 二、基础KPI制度 所有团队成员必须完成每周基础KPI： 办公室学习：每周 ≥ 2 次 学习时间：每次 ≥ 2 小时 项目任务：每周 ≥ 1 个 团队会议：每周参加例会 三、积分激励制度 团队实行积分制度，记录成员贡献度。 加分规则： 办公室学习一次...",
       "tags": [],
       "backlinks": []
     },
@@ -960,9 +960,9 @@
       "title": "开会纪要",
       "path": "项目相关文档\\开会纪要.md",
       "topic": "项目相关文档",
-      "wordCount": 2881,
+      "wordCount": 4068,
       "lastUpdated": "2026-04-14",
-      "summary": "- **会议主题**: 南青年社区项目上线...",
+      "summary": "- **会议主题**: 南青年社区项目上线 - **会议时间**: 2026年4月14日 15:30-17:30 - **会议地点**: 南昌工学院_创新创业学院A014 - **主持人**: 项目负责人 - Artemik - **参会人员**: 南青年项目软件研发所有成员 - **记录人**: 涂梓峰 1. 产品运营上线推广方案以及目标计划 2. 软件研发进度及后台管理系统研发安排 3. 公众号运营工作安排 **讨论要点：** - 当前产品功能已基本完成，需要制定上线推广方案 - 目标用户群体定位为青年群体，前期主要为南昌工学院学生群体 - 推广渠道考虑：微信朋友圈、抖音、小红书、校园社团...",
       "tags": [],
       "backlinks": []
     },
@@ -973,7 +973,7 @@
       "topic": "项目相关文档",
       "wordCount": 3283,
       "lastUpdated": "2026-03-19",
-      "summary": "从普通用户的角度出发，按照真实使用路径逐步测试系统功能，验证每个环节是否正常可用。...",
+      "summary": "从普通用户的角度出发，按照真实使用路径逐步测试系统功能，验证每个环节是否正常可用。 --- **操作步骤：** 1. 打开浏览器，清空缓存和Cookie 2. 访问网站域名/首页 3. 观察页面加载情况 **检查点：** - [ ] 页面是否在3秒内完整加载 - [ ] 页面布局是否正常，没有错位或样式丢失 - [ ] 所有图片、图标是否正常显示 - [ ] 导航栏菜单是否正确展示 - [ ] 未登录时，是否显示「登录」「注册」按钮 - [ ] 未登录时，需要权限的功能是否正确拦截或跳转登录页 - [ ] 页脚信息是否完整显示 - [ ] 响应式：缩小浏览器窗口，布局是否自适应 **预期结果：...",
       "tags": [],
       "backlinks": []
     },
@@ -984,7 +984,7 @@
       "topic": "项目相关文档",
       "wordCount": 7525,
       "lastUpdated": "2026-04-09",
-      "summary": "> **项目周期**：`2026年3月8日 — 2026年6月10日` (共 14 周)...",
+      "summary": "> **项目周期**：`2026年3月8日 — 2026年6月10日` (共 14 周) > **项目目标**：本学期结束前完成校园社区产品上线，获取第一批真实用户并形成活跃社区氛围。 --- | 目标 | 指标要求 | |------|----------| | 产品上线 | 用户端功能可用，基础功能完整 | | 用户注册 | 内测用户 ≥ 50；推广后用户 ≥ 200 | | 社区内容 | 平均每天 ≥ 10 条内容，保证社区初步活跃 | | 团队成长 | 成员熟悉开发流程、后台管理、产品运营 | --- **时间**：`2026-03-08` ~ `2026-03-31` （共 3 周 ...",
       "tags": [],
       "backlinks": [
         "01-ViteWebpack基础",
@@ -1000,7 +1000,7 @@
       "topic": "其他",
       "wordCount": 1946,
       "lastUpdated": "2026-04-09",
-      "summary": "基于 LLM Knowledge Bases 方法构建的智能前端开发知识库。...",
+      "summary": "基于 LLM Knowledge Bases 方法构建的智能前端开发知识库。 首先运行健康检查： 当添加或修改笔记时，更新索引： - **文档总数**: 53 篇 - **总字数**: 285,568 字 - **主题分布**: HTML、CSS、JavaScript、TypeScript、Vue、React、算法等 - **平均文档长度**: 5,388 字 1. 将原始资料放入 `raw/` 目录 2. 运行索引器 `node tools/indexer.js` 3. 使用健康检查工具 `node tools/health-check.js` 4. 使用搜索和问答系统查询信息 - 定期运行...",
       "tags": [],
       "backlinks": []
     },
@@ -1011,7 +1011,7 @@
       "topic": "其他",
       "wordCount": 2801,
       "lastUpdated": "2026-04-09",
-      "summary": "> 分类整理的完整前端技术学习笔记，Obsidian 维护，带双向链接知识图谱 + Canvas 脑图。...",
+      "summary": "> 分类整理的完整前端技术学习笔记，Obsidian 维护，带双向链接知识图谱 + Canvas 脑图。 > > 🤖 **已升级为 LLM 知识库系统** - 支持智能问答、自动索引、健康检查等功能 --- 本知识库已按照 [LLM Knowledge Bases](https://news.ycombinator.com/item?id=40840111) 方法升级，具有以下特性： - **自动索引**：扫描知识库并构建搜索索引 - **智能搜索**：快速查找相关文档 - **问答系统**：基于知识库内容回答问题 - **健康检查**：自动检测断裂链接和问题 - **摘要生成**：自动生成...",
       "tags": [],
       "backlinks": [
         "quick-start"

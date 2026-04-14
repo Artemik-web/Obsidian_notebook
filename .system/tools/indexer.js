@@ -158,15 +158,14 @@ function indexWiki() {
 }
 
 function extractSummary(content) {
-  // 简单的摘要提取：取第一个段落
-  const lines = content.split('\n');
-  for (let i = 0; i < lines.length; i++) {
-    if (lines[i].startsWith('#')) continue; // 跳过标题
-    if (lines[i].trim() && !lines[i].startsWith('---')) {
-      return lines[i].trim().substring(0, 100) + '...';
-    }
+  // 提取摘要：取前300个字符，跳过标题
+  const textWithoutHeadings = content.replace(/#+.*/g, ''); // 移除所有标题
+  const plainText = textWithoutHeadings.replace(/```[\s\S]*?```/g, ''); // 移除代码块
+  const trimmed = plainText.trim().replace(/\s+/g, ' '); // 合并多余的空格
+  if (trimmed.length <= 300) {
+    return trimmed;
   }
-  return '无摘要';
+  return trimmed.substring(0, 300) + '...';
 }
 
 // 主程序
