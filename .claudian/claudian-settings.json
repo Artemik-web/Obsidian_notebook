@@ -25,7 +25,7 @@
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "DESKTOP-GLKNR27": "D:\\AppData\\nodejs\\node_global\\node_modules\\@anthropic-ai\\claude-code\\cli.js"
+        "DESKTOP-GLKNR27": "D:\\AppData\\nodejs\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -44,9 +44,9 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "DESKTOP-GLKNR27": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     }
   },
