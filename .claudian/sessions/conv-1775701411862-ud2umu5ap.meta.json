@@ -4,8 +4,8 @@
   "title": "Generate title for user input containing the nu...",
   "titleGenerationStatus": "success",
   "createdAt": 1775701411866,
-  "updatedAt": 1781759983517,
-  "lastResponseAt": 1781759983516,
+  "updatedAt": 1781760064669,
+  "lastResponseAt": 1781760064668,
   "sessionId": "cfa37932-e297-4ca9-a07a-7e3e60e879bd",
   "providerState": {
     "providerSessionId": "cfa37932-e297-4ca9-a07a-7e3e60e879bd",
@@ -15,12 +15,11 @@
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 1139,
+    "inputTokens": 1117,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 200192,
-    "contextWindow": 1000000,
-    "contextTokens": 201331,
-    "percentage": 20,
-    "contextWindowIsAuthoritative": true
+    "cacheReadInputTokens": 207232,
+    "contextWindow": 200000,
+    "contextTokens": 208349,
+    "percentage": 100
   }
 }
