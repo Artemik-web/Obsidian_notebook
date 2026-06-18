@@ -10,7 +10,7 @@ const path = require('path');
 const CONFIG = {
   wikiRoot: '.',
   indexFile: '.llm-kb/index.json',
-  topics: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue', 'React', 'HTTP', '浏览器', '安全', '工程化', 'Git', 'Node.js', 'Docker', 'Linux', '算法', '设计模式', '移动端', '微前端', '项目相关文档'],
+  topics: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue', 'React', 'HTTP', '浏览器', '安全', '工程化', 'Git', 'Node.js', 'Docker', 'Linux', '算法', '设计模式', '移动端', '微前端', '项目相关文档', 'Vibe Coding 零基础教程'],
 };
 
 function readMarkdownFile(filePath) {

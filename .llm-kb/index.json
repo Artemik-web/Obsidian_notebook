@@ -2,9 +2,9 @@
   "metadata": {
     "title": "前端开发知识体系",
     "version": "1.0.0",
-    "lastUpdated": "2026-06-07",
-    "totalDocuments": 64,
-    "totalWords": 334682
+    "lastUpdated": "2026-06-18",
+    "totalDocuments": 70,
+    "totalWords": 346560
   },
   "documents": [
     {
@@ -1044,6 +1044,82 @@
       "wordCount": 1065,
       "lastUpdated": "2026-05-31",
       "summary": "> **岗位负责人**：涂梓峰 > **岗位目标**：保障系统稳定运行，根据需求持续迭代 --- 项目研发负责南青年社区的技术开发和系统维护，根据产品运营提出的需求进行开发，同时主动更新优化系统。 --- **来源**：产品运营组（方菲）提出的需求文档 **流程**： **P0 = 不做系统用不了** → 立即处理 **P1 = 重要但不紧急** → 排入本周迭代 **P2 = 有了更好** → 排入下期 **研发组自己发现的问题或可优化的地方，主动更新系统，不等需求。** | 类型 | 举例 | 谁发现 | | ------ | -------------- | --- | | Bug 修复...",
+      "tags": [],
+      "backlinks": []
+    },
+    {
+      "id": "vibe-coding-零基础教程-00-vibe-coding-简介",
+      "title": "00 Vibe Coding 简介",
+      "path": "Vibe Coding 零基础教程\\00 Vibe Coding 简介.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 2057,
+      "lastUpdated": "2026-06-18",
+      "summary": "Vibe Coding 是一种**用自然语言描述需求、让 AI 帮你写代码**的编程方式。 你不必精确记住每一个语法，只需要清楚地告诉 AI **「我要什么」**，AI 就会生成可运行的代码。 > **一句话**：你说人话，AI 写代码。 --- - **Vibe** = 氛围、感觉、直觉 - 你不需要死记语法、不用纠结技术细节 - 你描述需求、给方向，代码由 AI 完成 - 就像和朋友聊天一样编程 --- | 对比 | 传统编程 | Vibe Coding | |------|----------|-------------| | 入门门槛 | 需学语法、框架、工具链 | 会说需求就行 | ...",
+      "tags": [],
+      "backlinks": [
+        "01 工具安装与环境搭建"
+      ]
+    },
+    {
+      "id": "vibe-coding-零基础教程-01-工具安装与环境搭建",
+      "title": "01 工具安装与环境搭建",
+      "path": "Vibe Coding 零基础教程\\01 工具安装与环境搭建.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 2124,
+      "lastUpdated": "2026-06-18",
+      "summary": "> 目标：30 分钟内把所有工具装好。 --- | 工具 | 必须？ | 用途 | |------|--------|------| | VS Code | ✅ 必须 | 写代码的编辑器 | | Node.js | ✅ 必须 | 让电脑能运行 JavaScript | | Cursor（推荐） | 推荐 | 内置 AI 的编辑器 | | Claude / ChatGPT | ✅ 必须 | AI 助手 | --- 1. 打开 [code.visualstudio.com](https://code.visualstudio.com) 2. 点击 **Download**（选择你的系统：Windo...",
+      "tags": [],
+      "backlinks": [
+        "02 第一个 Vibe Coding 项目"
+      ]
+    },
+    {
+      "id": "vibe-coding-零基础教程-02-第一个-vibe-coding-项",
+      "title": "02 第一个 Vibe Coding 项目",
+      "path": "Vibe Coding 零基础教程\\02 第一个 Vibe Coding 项目.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 1481,
+      "lastUpdated": "2026-06-18",
+      "summary": "> 目标：用 AI 做一个完整的网页，看到 Vibe Coding 的全流程。 --- 做一个**个人名片页面**，包含： - 你的名字和头像 - 一句自我介绍 - 三个技能标签 - 社交媒体链接 --- 打开 Claude / ChatGPT，复制下面这段话（替换你的信息）： AI 会生成一段 HTML 代码。 --- 1. 在 VS Code 的项目文件夹里新建 `profile.html` 2. 把 AI 生成的代码**全部复制**进去 3. 保存（Ctrl + S） --- 1. 在 VS Code 里右键 `profile.html` → **Open with Live Serve...",
+      "tags": [],
+      "backlinks": [
+        "03 如何写出好的提示词"
+      ]
+    },
+    {
+      "id": "vibe-coding-零基础教程-03-如何写出好的提示词",
+      "title": "03 如何写出好的提示词",
+      "path": "Vibe Coding 零基础教程\\03 如何写出好的提示词.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 1936,
+      "lastUpdated": "2026-06-18",
+      "summary": "> Vibe Coding 最核心的技能：让 AI 准确理解你的意思。 --- 提示词 = 你发给 AI 的那段话。 **同样做一张名片，不同提示词效果天差地别：** | 提示词 | 效果 | |--------|------| | 「做个网页」 | 随便给你一个，大概率不是你想要的 | | 「做一个个人名片页面，白底居中卡片，圆形头像，三个技能标签」 | 基本是你想要的 | --- --- --- | 场景 | 提示词 | |------|--------| | 改进样式 | 「帮我把这个页面设计得更好看一些，加一些现代化的设计元素」 | | 加动画 | 「给这个元素加一个淡入动画」 | |...",
+      "tags": [],
+      "backlinks": [
+        "04 调试与修改 AI 生成的代码"
+      ]
+    },
+    {
+      "id": "vibe-coding-零基础教程-04-调试与修改-ai-生成的代码",
+      "title": "04 调试与修改 AI 生成的代码",
+      "path": "Vibe Coding 零基础教程\\04 调试与修改 AI 生成的代码.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 1681,
+      "lastUpdated": "2026-06-18",
+      "summary": "> 代码跑不起来？不用担心，AI 帮你找 bug。 --- --- 1. 打开浏览器开发者工具（F12） 2. 看 Console（控制台）有没有红字 3. 把红字复制给 AI --- 截图发给 AI（或用文字描述），说清楚： 如果 AI 支持图片，直接截图发效果更好。 --- - 按钮的 id/class 有没有写对 - JavaScript 函数有没有绑定到按钮 - 拼写有没有错误 - 事件监听有没有写 --- --- | 你想要的 | 对 AI 说 | |----------|----------| | 检查语法错误 | 「帮我检查这段代码有没有语法错误」 | | 优化性能 | 「这个页...",
+      "tags": [],
+      "backlinks": [
+        "05 完整项目实战"
+      ]
+    },
+    {
+      "id": "vibe-coding-零基础教程-05-完整项目实战",
+      "title": "05 完整项目实战",
+      "path": "Vibe Coding 零基础教程\\05 完整项目实战.md",
+      "topic": "Vibe Coding 零基础教程",
+      "wordCount": 2599,
+      "lastUpdated": "2026-06-18",
+      "summary": "> 目标：从头到尾用 Vibe Coding 做一个能上线的完整项目。 --- **功能清单**： - 首页：个人介绍 + 头像 - 项目展示：卡片排列 - 技能列表 - 联系方式 **技术栈**：HTML + CSS + JavaScript（单文件即可） --- 复制代码 → 新建 `portfolio.html` → 粘贴 → 右键 Open with Live Server --- --- --- 1. 打开 [app.netlify.com/drop](https://app.netlify.com/drop) 2. 把 `portfolio.html` 拖进去 3. Netlify...",
       "tags": [],
       "backlinks": []
     },
